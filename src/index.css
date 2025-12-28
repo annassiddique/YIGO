@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&display=swap");
+
+/* Import Tailwind CSS */
+@import "tailwindcss";
+
+/* Define custom theme using @theme directive (Tailwind v4) */
+@theme {
+  /* Custom Colors */
+  --color-primary: #0a1f44;
+  --color-secondary: #c9a961;
+  --color-dark: #0d1117;
+
+  /* Custom Fonts */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Inter", ui-serif, Georgia, serif;
+}
+
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom component classes */
+@layer components {
+  .section-padding {
+    @apply py-16 md:py-24 px-6 md:px-12 lg:px-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-3 rounded-md  transition-all duration-300;
+  }
+
+  .text-gradient {
+    @apply bg-linear-to-r from-primary to-secondary bg-clip-text text-transparent;
+  }
+}
+
+@keyframes menuItemIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #c1c1c1 #ffffff;
+}
