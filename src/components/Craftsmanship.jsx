@@ -2,8 +2,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 const Craftsmanship = () => {
+  const { t } = useTranslation('home');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
@@ -27,7 +29,7 @@ const Craftsmanship = () => {
             transition={{ duration: 1 }}
             className="font-normal text-[10vw] sm:text-7xl lg:text-[10vw]  text-neutral-900 tracking-wider leading-none relative z-10"
           >
-            CRAFTSMANSHIP
+            {t('craftsmanship.title')}
           </motion.h2>
 
           <motion.div
@@ -55,12 +57,7 @@ const Craftsmanship = () => {
           className="max-w-2xl ml-auto mt-32 sm:mt-60 relative z-10"
         >
           <p className="text-lg text-neutral-600 leading-relaxed">
-            Every detail is a testament to precision and passion. From the
-            choice of materials to the finesse of finishing, each element
-            reflects an unwavering commitment to quality. Spaces are not just
-            built — they are crafted, shaped by artisanship that balances
-            timeless elegance with modern functionality. The result is a home
-            that feels refined, enduring, and truly personal.
+            {t('craftsmanship.description')}
           </p>
         </motion.div>
       </div>

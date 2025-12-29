@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
 const LifestyleSection = () => {
+  const { t } = useTranslation('home');
   const sectionRef = useRef(null);
   const wrapperRef = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -56,77 +58,59 @@ const LifestyleSection = () => {
   const panels = [
     {
       id: "amenities",
-      title: "AMENITIES",
-      heading: "Wellness at Your Doorstep",
-      description:
-        "Our amenities are designed to transform everyday living into a resort-like experience. From leisure to wellness, each feature enhances comfort while fostering a sense of community.",
-      features: [
-        "Resort-style swimming pool for relaxation and recreation.",
-        "Fully equipped fitness center with modern training zones.",
-        "Landscaped gardens, kids' play areas, and social lounges.",
-      ],
+      title: t('lifestyle.amenities.title'),
+      heading: t('lifestyle.amenities.heading'),
+      description: t('lifestyle.amenities.description'),
+      features: t('lifestyle.amenities.features', { returnObjects: true }),
       images: [
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Fwellness_zone.webp&w=640&q=75",
-          caption:
-            "An oasis of calm — the pool designed for leisure and family moments.",
+          caption: t('lifestyle.amenities.imageCaptions.pool'),
           large: true,
         },
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Flobby.webp&w=828&q=75",
-          caption:
-            "Wellness at your doorstep — state-of-the-art fitness facilities.",
+          caption: t('lifestyle.amenities.imageCaptions.fitness'),
         },
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Fpool.webp&w=750&q=75",
-          caption:
-            "Landscaped community spaces designed to bring neighbors together.",
+          caption: t('lifestyle.amenities.imageCaptions.community'),
         },
       ],
     },
     {
       id: "urban-living",
-      title: "URBAN LIVING",
-      heading: "A Neighborhood That Thrives",
-      description:
-        "Here, city energy meets residential charm. With boutique cafés, walkable streets, and vibrant social spaces, life flows seamlessly between work, leisure, and community.",
-      features: [
-        "A thriving hub with shopping, dining, and lifestyle outlets.",
-        "Walkable boulevards and gathering spaces for connection.",
-        "Easy access to the city while enjoying a calm retreat.",
-      ],
+      title: t('lifestyle.urbanLiving.title'),
+      heading: t('lifestyle.urbanLiving.heading'),
+      description: t('lifestyle.urbanLiving.description'),
+      features: t('lifestyle.urbanLiving.features', { returnObjects: true }),
       images: [
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Furban_living.webp&w=3840&q=75",
-          caption: "Urban lifestyle with modern conveniences and connectivity.",
+          caption: t('lifestyle.urbanLiving.imageCaptions.urban'),
           large: true,
         },
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Furban_living_2.webp&w=750&q=75",
-          caption: "Vibrant community spaces designed for social interaction.",
+          caption: t('lifestyle.urbanLiving.imageCaptions.vibrant'),
         },
       ],
     },
     {
       id: "interiors",
-      title: "INTERIORS",
-      heading: "Timeless Elegance Inside",
-      description:
-        "Every home is crafted with attention to detail, combining modern functionality with sophisticated finishes. Spacious layouts and natural light create interiors that feel warm, refined, and enduring.",
-      features: [
-        "Open-plan living designed for modern lifestyles.",
-        "Premium finishes with elegant material palettes.",
-        "Smart kitchens, serene bedrooms, and inviting living spaces.",
-      ],
+      title: t('lifestyle.interiors.title'),
+      heading: t('lifestyle.interiors.heading'),
+      description: t('lifestyle.interiors.description'),
+      features: t('lifestyle.interiors.features', { returnObjects: true }),
       images: [
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Finteriors.webp&w=2048&q=75",
-          caption: "Rooms that reflect peace, privacy, and timeless design.",
+          caption: t('lifestyle.interiors.imageCaptions.rooms'),
           large: true,
         },
         {
           src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Finteriors_2.webp&w=1080&q=75",
-          caption: "Bright, open living rooms designed for comfort and style.",
+          caption: t('lifestyle.interiors.imageCaptions.living'),
         },
       ],
     },

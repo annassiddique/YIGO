@@ -2,8 +2,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 const VideoSection = () => {
+  const { t } = useTranslation('home');
   const containerRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: containerRef,
@@ -17,15 +19,6 @@ const VideoSection = () => {
   return (
     <section ref={containerRef} className="relative">
       <div className="sticky top-0 h-screen flex items-center justify-center overflow-hidden">
-        {/* <motion.div
-          style={{ opacity }}
-          className="absolute top-20 z-20 text-center px-4"
-        >
-          <h2 className="text-4xl md:text-6xl font-bold text-white tracking-wider">
-            YIGO RESIDENCES
-          </h2>
-        </motion.div> */}
-
         <motion.div
           style={{ scale, y }}
           className="relative w-full h-full flex items-center justify-center"
@@ -42,7 +35,6 @@ const VideoSection = () => {
                 src="https://yigogroup.ae/images/yigo_home_video.mp4"
                 type="video/mp4"
               />
-              {/* <source src="https://foldr.space/f/5MFEjSL0Md1UwqNS" type="video/mp4" /> */}
             </video>
             <div className="absolute inset-0 bg-black/30 " />
             <motion.div
@@ -50,9 +42,9 @@ const VideoSection = () => {
               className="absolute top-40 left-8 sm:left-12 lg:left-16 z-10 text-white max-w-2xl"
             >
               <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal leading-tight text-left">
-                WHERE CITIES EVOLVE,
+                {t('video.title1')}
                 <br />
-                <span className="">LEGACIES BEGIN.</span>
+                <span className="">{t('video.title2')}</span>
               </h2>
             </motion.div>
           </motion.div>

@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 import { CounterAnimation } from "./VideoSection";
 
 const Counter = ({ end, label, suffix = "" }) => {
@@ -43,6 +44,7 @@ const Counter = ({ end, label, suffix = "" }) => {
 };
 
 const Journey = () => {
+  const { t } = useTranslation('home');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -60,22 +62,18 @@ const Journey = () => {
           >
             <div>
               <h2 className="text-4xl lg:text-5xl font-normal mb-6 leading-tight">
-                THE YIGO JOURNEY:
+                {t('journey.title')}
               </h2>
               <h3 className="text-3xl lg:text-4xl font-normal text-gray-600 mb-8">
-                HONG KONG → GLOBAL
+                {t('journey.subtitle')}
               </h3>
             </div>
             <div className="space-y-6">
               <p className="text-lg text-gray-600">
-                Born in Hong Kong at the crossroads of East and West, YIGO
-                embodies a spirit of vision, resilience, and action for the
-                future.
+                {t('journey.description1')}
               </p>
               <p className="text-lg text-gray-600">
-                With global experience and innovative thinking, we create spaces
-                that respond to each city's unique needs—redefining how the
-                world lives.
+                {t('journey.description2')}
               </p>
             </div>
 
@@ -93,7 +91,7 @@ const Journey = () => {
                     transition={{ duration: 0.6, delay: 1.4 }}
                     className="text-3xl font-medium text-gray-900"
                   >
-                    RIYADH
+                    {t('journey.locations.riyadh')}
                   </motion.div>
                 </div>
               </div>
@@ -115,7 +113,7 @@ const Journey = () => {
                 >
                   <img
                     src="https://yigogroup.ae/_next/image?url=%2Fimages%2Friyadh.webp&w=1920&q=75"
-                    alt="Riyadh"
+                    alt={t('journey.locations.riyadh')}
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -138,7 +136,7 @@ const Journey = () => {
                     transition={{ duration: 0.6, delay: 1 }}
                     className="text-3xl font-medium text-gray-900"
                   >
-                    HONG KONG
+                    {t('journey.locations.hongKong')}
                   </motion.div>
                 </div>
               </div>
@@ -160,7 +158,7 @@ const Journey = () => {
                 >
                   <img
                     src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fhongkong.webp&w=1920&q=75"
-                    alt="Hong Kong"
+                    alt={t('journey.locations.hongKong')}
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -181,7 +179,7 @@ const Journey = () => {
                     transition={{ duration: 0.6, delay: 1.2 }}
                     className="text-3xl font-medium text-gray-900"
                   >
-                    DUBAI
+                    {t('journey.locations.dubai')}
                   </motion.div>
                 </div>
               </div>
@@ -203,7 +201,7 @@ const Journey = () => {
                 >
                   <img
                     src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fdubai.webp&w=1920&q=75"
-                    alt="Dubai"
+                    alt={t('journey.locations.dubai')}
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -224,7 +222,7 @@ const Journey = () => {
                     transition={{ duration: 0.6, delay: 1.5 }}
                     className="text-3xl font-medium text-gray-900"
                   >
-                    IRELAND
+                    {t('journey.locations.ireland')}
                   </motion.div>
                 </div>
               </div>
@@ -246,7 +244,7 @@ const Journey = () => {
                 >
                   <img
                     src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fireland.webp&w=2048&q=75"
-                    alt="Ireland"
+                    alt={t('journey.locations.ireland')}
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -261,10 +259,10 @@ const Journey = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
           className="grid grid-cols-2 md:grid-cols-4 gap-8 pt-16 mt-16 border-t border-gray-200"
         >
-          <Counter end={23} label="Years in Business" />
-          <Counter end={5} label="Destinations" />
-          <Counter end={100} label="Masterpieces" suffix="+" />
-          <Counter end={3} label="Portfolio" suffix="bn" />
+          <Counter end={23} label={t('journey.stats.years')} />
+          <Counter end={5} label={t('journey.stats.destinations')} />
+          <Counter end={100} label={t('journey.stats.masterpieces')} suffix="+" />
+          <Counter end={3} label={t('journey.stats.portfolio')} suffix="bn" />
         </motion.div>
       </div>
     </section>

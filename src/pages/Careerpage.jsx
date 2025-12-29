@@ -2,8 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 
 const Careerpage = () => {
+  const { t } = useTranslation('careers');
+  
   const [heroRef, heroInView] = useInView({
     triggerOnce: true,
     threshold: 0.3,
@@ -27,84 +30,74 @@ const Careerpage = () => {
   // Benefits data
   const benefits = [
     {
-      title: "COMPETITIVE SALARY",
-      description:
-        "We offer competitive compensation packages that reflect your skills and experience.",
+      title: t('benefits.salary.title'),
+      description: t('benefits.salary.description'),
     },
     {
-      title: "HEALTH & WELLNESS",
-      description: "Comprehensive health insurance.",
+      title: t('benefits.health.title'),
+      description: t('benefits.health.description'),
     },
     {
-      title: "FLEXIBLE WORK",
-      description:
-        "Remote work options and flexible hours to support work-life balance.",
+      title: t('benefits.flexible.title'),
+      description: t('benefits.flexible.description'),
     },
     {
-      title: "LEARNING & DEVELOPMENT",
-      description:
-        "Professional development budget and opportunities for growth.",
+      title: t('benefits.learning.title'),
+      description: t('benefits.learning.description'),
     },
     {
-      title: "TEAM EVENTS",
-      description: "Regular team building activities and company retreats.",
+      title: t('benefits.events.title'),
+      description: t('benefits.events.description'),
     },
     {
-      title: "INNOVATION TIME",
-      description:
-        "Dedicated time to work on personal projects and explore new ideas.",
+      title: t('benefits.innovation.title'),
+      description: t('benefits.innovation.description'),
     },
   ];
 
   // Open positions data
   const positions = [
     {
-      title: "Sales",
-      department: "Sales",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Join our sales function to build strong client relationships, identify new opportunities, and drive growth through performance-driven strategies and results.",
+      title: t('positions.sales.title'),
+      department: t('positions.sales.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.sales.description'),
     },
     {
-      title: "Marketing",
-      department: "Marketing",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Be part of a creative team that shapes brand perception, drives engagement, and delivers impactful campaigns across digital and traditional channels.",
+      title: t('positions.marketing.title'),
+      department: t('positions.marketing.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.marketing.description'),
     },
     {
-      title: "Project Management",
-      department: "Project Management",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Oversee projects from concept to completion, ensuring smooth coordination, timely delivery, and adherence to the highest quality standards.",
+      title: t('positions.projectManagement.title'),
+      department: t('positions.projectManagement.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.projectManagement.description'),
     },
     {
-      title: "Engineering",
-      department: "Engineering",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Play a key role in translating vision into structure — ensuring every project is built with precision, innovation, and technical excellence.",
+      title: t('positions.engineering.title'),
+      department: t('positions.engineering.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.engineering.description'),
     },
     {
-      title: "Admin",
-      department: "Admin",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Support the organization's daily operations through effective coordination, documentation, and communication across departments.",
+      title: t('positions.admin.title'),
+      department: t('positions.admin.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.admin.description'),
     },
     {
-      title: "Finance",
-      department: "Finance",
-      location: "Dubai",
-      type: "Full-time",
-      description:
-        "Manage financial planning, budgeting, and reporting to maintain stability, optimize resources, and drive sustainable business growth.",
+      title: t('positions.finance.title'),
+      department: t('positions.finance.title'),
+      location: t('location'),
+      type: t('type'),
+      description: t('positions.finance.description'),
     },
   ];
 
@@ -123,12 +116,10 @@ const Careerpage = () => {
             className="text-center"
           >
             <h1 className="font-heading text-2xl sm:text-5xl font-normal tracking-widest uppercase text-neutral-900">
-              LOOKING FOR A CAREER WITH PURPOSE?
+              {t('title')}
             </h1>
             <p className="mt-6 text-sm sm:text-base text-neutral-600 max-w-2xl mx-auto leading-relaxed">
-              We're building a culture of innovation, collaboration, and growth.
-              Join us in creating meaningful impact through exceptional work.
-              Build Tomorrow, Today with YIGO.
+              {t('subtitle')}
             </p>
           </motion.div>
         </div>
@@ -166,11 +157,10 @@ const Careerpage = () => {
             className="text-center mb-16"
           >
             <h2 className="font-heading text-4xl font-normal text-neutral-900 mb-6">
-              OPEN POSITIONS
+              {t('openPositions')}
             </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Explore our current openings and find the perfect role for your
-              skills and interests.
+              {t('openPositionsDesc')}
             </p>
           </motion.div>
 
@@ -204,7 +194,7 @@ const Careerpage = () => {
                       )}%20Position`}
                       className="inline-flex items-center justify-center px-6 py-3 border border-neutral-300 text-sm font-medium rounded-md text-neutral-700 bg-white hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-neutral-500 transition-colors"
                     >
-                      Apply Now
+                      {t('applyNow')}
                     </a>
                   </div>
                 </div>
@@ -223,17 +213,16 @@ const Careerpage = () => {
             transition={{ duration: 0.6 }}
           >
             <h2 className="font-heading text-4xl font-normal text-neutral-900 mb-6">
-              DON'T SEE THE RIGHT ROLE?
+              {t('noRoleTitle')}
             </h2>
             <p className="text-xl text-neutral-600 mb-8">
-              We're always looking for talented individuals to join our team.
-              Send us your resume and let us know how you'd like to contribute.
+              {t('noRoleDesc')}
             </p>
             <a
               href="mailto:Info@yigogroup.com?subject=General%20Application"
               className="inline-flex items-center justify-center font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed bg-neutral-900 text-white hover:bg-neutral-800 focus:ring-neutral-500 px-6 py-3 text-lg"
             >
-              Send Your Resume
+              {t('sendResume')}
             </a>
           </motion.div>
         </div>

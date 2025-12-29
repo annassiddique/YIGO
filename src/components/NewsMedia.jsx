@@ -2,9 +2,15 @@
 import React, { useState, useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
+import { useParams } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 
 const NewsMedia = () => {
+  const { t } = useTranslation('home');
+  const { lang } = useParams();
+  const currentLang = lang || 'en';
+  
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -16,31 +22,31 @@ const NewsMedia = () => {
 
   const newsItems = [
     {
-      title: "YIGO Wins Gold at the Architecture Madrid Awards 2025",
+      title: t('news.articles.madridAward'),
       image:
         "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800&q=80",
-      category: "NEWS",
+      category: t('news.categories.news'),
       imageFirst: false,
     },
     {
-      title: "YIGO Launches a New Era of Living in Dubai's International City",
+      title: t('news.articles.newEra'),
       image:
         "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
-      category: "PRESS",
+      category: t('news.categories.press'),
       imageFirst: true,
     },
     {
-      title: "YIGO Group Expands into Dubai's Dynamic Real Estate Market",
+      title: t('news.articles.expansion'),
       image:
         "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?w=800&q=80",
-      category: "PRESS",
+      category: t('news.categories.press'),
       imageFirst: false,
     },
     {
-      title: "The Best Family-Friendly Communities in Dubai (2025 Guide)",
+      title: t('news.articles.familyFriendly'),
       image:
         "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&q=80",
-      category: "NEWS",
+      category: t('news.categories.news'),
       imageFirst: true,
     },
   ];
@@ -87,11 +93,10 @@ const NewsMedia = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl lg:text-5xl font-normal text-neutral-900 mb-6">
-            NEWS & MEDIA
+            {t('news.title')}
           </h2>
           <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-            Stay updated with our latest achievements, announcements, and
-            insights from the world of innovation and design.
+            {t('news.description')}
           </p>
         </motion.div>
 
@@ -196,10 +201,10 @@ const NewsMedia = () => {
           className="text-center mt-12"
         >
           <a
-            href="/news-media"
+            href={`/${currentLang}/news-media`}
             className="inline-flex items-center font-medium transition-colors duration-300"
           >
-            View All News & Media
+            {t('news.viewAll')}
             <ChevronRight className="ml-2 w-4 h-4" />
           </a>
         </motion.div>

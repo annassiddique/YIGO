@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 import Header from "../components/Header";
 
 // Counter Animation Component
@@ -48,6 +49,7 @@ const Counter = ({ end, label, suffix = "" }) => {
 };
 
 const Aboutpage = () => {
+  const { t } = useTranslation('about');
   const [heroRef, heroInView] = useInView({
     triggerOnce: true,
     threshold: 0.3,
@@ -88,7 +90,7 @@ const Aboutpage = () => {
               transition={{ duration: 0.8 }}
               className="text-6xl lg:text-8xl font-light text-white text-center tracking-wide"
             >
-              THE YIGO STORY
+              {t('hero.title')}
             </motion.h1>
           </div>
         </section>
@@ -103,7 +105,7 @@ const Aboutpage = () => {
                 transition={{ duration: 0.6 }}
                 className="text-5xl lg:text-6xl font-light mb-12 text-neutral-900"
               >
-                ABOUT YIGO DEVELOPMENT
+                {t('title')}
               </motion.h1>
 
               <motion.div
@@ -113,35 +115,19 @@ const Aboutpage = () => {
                 className="max-w-7xl mx-auto mb-16 font-light space-y-6"
               >
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  YIGO began with a bold vision: to transform skylines and
-                  communities by blending architectural ambition, cultural
-                  insight, and global reach. From its roots in China, YIGO has
-                  charted an expansive journey — From developing landmark
-                  residential and mixed-use projects across mainland China, to
-                  establishing our headquarters in Hong Kong and expanding into
-                  Ireland and Saudi Arabia — and now further into Dubai and the
-                  broader Middle East region.
+                  {t('content.para1')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  Each step in this journey reflects our core belief: built
-                  environments should be more than structures — they should
-                  nurture lives, connect people, and support sustainable growth.
+                  {t('content.para2')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  Our story is one of evolution. In China, we laid our
-                  foundation with projects that balance scale and creativity.
+                  {t('content.para3')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  As our confidence and capabilities grew, our vision became
-                  increasingly global — from Victoria Harbour Residences in Hong
-                  Kong, to elegant villa communities in Ireland; from serviced
-                  apartment developments in Saudi Arabia, to our latest ventures
-                  in Dubai and the wider Middle East, where we integrate smart
-                  planning, green spaces, and sustainable living ecosystems.
+                  {t('content.para4')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  Wherever we are, YIGO remains committed to local insight,
-                  international standards, and continuous innovation.
+                  {t('content.para5')}
                 </p>
               </motion.div>
 
@@ -154,10 +140,10 @@ const Aboutpage = () => {
                 className="max-w-7xl mx-auto flex justify-center mb-16"
               >
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-8 font-light w-full lg:w-4/5">
-                  <Counter end={23} label="Years in Business" />
-                  <Counter end={5} label="Destinations" />
-                  <Counter end={100} label="Masterpieces" suffix="+" />
-                  <Counter end={3} label="Portfolio" suffix="bn" />
+                  <Counter end={23} label={t('stats.years')} />
+                  <Counter end={5} label={t('stats.destinations')} />
+                  <Counter end={100} label={t('stats.masterpieces')} suffix="+" />
+                  <Counter end={3} label={t('stats.portfolio')} suffix="bn" />
                 </div>
               </motion.div>
 
@@ -187,7 +173,7 @@ const Aboutpage = () => {
                 transition={{ duration: 0.6 }}
                 className="text-5xl lg:text-6xl font-light mb-12 text-neutral-900"
               >
-                LEADING WITH EXCELLENCE
+                {t('leadership.title')}
               </motion.h2>
 
               <motion.div
@@ -197,31 +183,16 @@ const Aboutpage = () => {
                 className="max-w-7xl mx-auto font-light space-y-6"
               >
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  Since its inception and the establishment of its Hong Kong
-                  headquarters, YIGO Group has evolved into a global enterprise
-                  with a clear mission — to redefine urban living through
-                  innovation, resilience, and purpose-driven growth.
+                  {t('leadership.para1')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  From Hong Kong, YIGO has steadily expanded its footprint to
-                  Ireland and Saudi Arabia, delivering landmark projects across
-                  diverse markets. Today, our Dubai operations, led by Cheung
-                  Kong International Real Estate Development, serve as a
-                  strategic hub for our expansion into the Middle East.
+                  {t('leadership.para2')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  This international presence reflects our vision — to create
-                  developments that transcend geographic boundaries.
+                  {t('leadership.para3')}
                 </p>
                 <p className="text-lg text-neutral-700 leading-relaxed">
-                  At YIGO, real estate development is more than business — it is
-                  our legacy. Guided by innovation, responsibility, and
-                  sustainability, we design spaces that respond to each city's
-                  unique character while setting new standards for global
-                  living. We believe that great places are built by great
-                  people, and our culture of collaboration and excellence
-                  ensures that every project we deliver leaves a lasting mark on
-                  the world.
+                  {t('leadership.para4')}
                 </p>
               </motion.div>
             </div>
@@ -237,12 +208,10 @@ const Aboutpage = () => {
               transition={{ duration: 0.6 }}
             >
               <h2 className="text-5xl lg:text-6xl font-light mb-6 text-neutral-900 text-left">
-                DRIVEN BY VISION.
-                <br />
-                GROUNDED IN EXPERIENCE.
+                {t('ceo.title')}
               </h2>
               <p className="text-lg text-neutral-700 mb-8 text-left font-light">
-                Building the ideal coordinates for quality of life in Dubai
+                {t('ceo.subtitle')}
               </p>
 
               <motion.div
@@ -252,48 +221,19 @@ const Aboutpage = () => {
                 className="max-w-7xl font-light space-y-4"
               >
                 <p className="text-base text-neutral-700 leading-relaxed">
-                  Dubai, a global metropolis known for its legend and vigour,
-                  not only attracts elite clients and investors from all over
-                  the world, but also carries the aspirations of countless
-                  Dubaiites for a high-class life. As the CEO of Yigo Group
-                  (development), I am always thinking: how can we use our
-                  expertise to create ideal homes with both living quality and
-                  investment value for this group of people who pursue
-                  excellence?
+                  {t('ceo.para1')}
                 </p>
                 <p className="text-base text-neutral-700 leading-relaxed">
-                  Their requirements for living are never "just enough": the
-                  ultimate in spatial design, the exquisite pursuit of living
-                  details, and the quality of high-end living in a foreign
-                  country; and for investment, they value "quality-driven
-                  value-added". For investment, they are more interested in
-                  "quality-driven appreciation" — only quality assets that can
-                  stand the test of time can match their long-term expectations
-                  for the future.
+                  {t('ceo.para2')}
                 </p>
                 <p className="text-base text-neutral-700 leading-relaxed">
-                  Over the 20 years, I have visited many of our clients' homes
-                  and had in-depth dialogues with global investors. We have
-                  deeply integrated Hong Kong's cutting-edge high-end living
-                  concepts with Dubai's local needs, and turned every demand for
-                  quality and every expectation for detail into the core
-                  direction of project development. We are never satisfied with
-                  "building houses", but insist on "sculpting quality human
-                  settlements" — not only to allow residents to enjoy high-end
-                  living experiences beyond expectations, but also to allow
-                  investors to reap the benefits of quality and robust
-                  value-added returns.
+                  {t('ceo.para3')}
                 </p>
                 <p className="text-base text-neutral-700 leading-relaxed">
-                  We will not only let the residents enjoy a high-end living
-                  experience that exceeds their expectations, but also let the
-                  investors enjoy a steady return on their investment empowered
-                  by quality. This is the long-term mission that the Yigo team
-                  and I are committed to in Dubai, and it is also our commitment
-                  to quality.
+                  {t('ceo.para4')}
                 </p>
                 <p className="text-base text-neutral-700 mb-6 leading-relaxed">
-                  CEO YIGO GROUP
+                  {t('ceo.signature')}
                 </p>
 
                 <motion.div

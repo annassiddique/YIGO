@@ -29,6 +29,7 @@
   },
   "openPositions": "招聘职位",
   "openPositionsDesc": "探索我们当前的职位空缺，找到适合您技能和兴趣的完美角色。",
+  "applyNow": "立即申请",
   "positions": {
     "sales": {
       "title": "销售",

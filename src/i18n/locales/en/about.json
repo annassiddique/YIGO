@@ -4,16 +4,32 @@
   },
   "title": "ABOUT YIGO DEVELOPMENT",
   "content": {
-    "para1": "YIGO began with a bold vision: to transform skylines and communities by blending architectural ambition, cultural insight, and global reach.",
-    "para2": "Each step in this journey reflects our core belief: built environments should be more than structures — they should nurture lives, connect people, and support sustainable growth."
+    "para1": "YIGO began with a bold vision: to transform skylines and communities by blending architectural ambition, cultural insight, and global reach. From its roots in China, YIGO has charted an expansive journey — From developing landmark residential and mixed-use projects across mainland China, to establishing our headquarters in Hong Kong and expanding into Ireland and Saudi Arabia — and now further into Dubai and the broader Middle East region.",
+    "para2": "Each step in this journey reflects our core belief: built environments should be more than structures — they should nurture lives, connect people, and support sustainable growth.",
+    "para3": "Our story is one of evolution. In China, we laid our foundation with projects that balance scale and creativity.",
+    "para4": "As our confidence and capabilities grew, our vision became increasingly global — from Victoria Harbour Residences in Hong Kong, to elegant villa communities in Ireland; from serviced apartment developments in Saudi Arabia, to our latest ventures in Dubai and the wider Middle East, where we integrate smart planning, green spaces, and sustainable living ecosystems.",
+    "para5": "Wherever we are, YIGO remains committed to local insight, international standards, and continuous innovation."
+  },
+  "stats": {
+    "years": "Years in Business",
+    "destinations": "Destinations",
+    "masterpieces": "Masterpieces",
+    "portfolio": "Portfolio"
   },
   "leadership": {
     "title": "LEADING WITH EXCELLENCE",
-    "content": "Since its inception and the establishment of its Hong Kong headquarters, YIGO Group has evolved into a global enterprise with a clear mission."
+    "para1": "Since its inception and the establishment of its Hong Kong headquarters, YIGO Group has evolved into a global enterprise with a clear mission — to redefine urban living through innovation, resilience, and purpose-driven growth.",
+    "para2": "From Hong Kong, YIGO has steadily expanded its footprint to Ireland and Saudi Arabia, delivering landmark projects across diverse markets. Today, our Dubai operations, led by Cheung Kong International Real Estate Development, serve as a strategic hub for our expansion into the Middle East.",
+    "para3": "This international presence reflects our vision — to create developments that transcend geographic boundaries.",
+    "para4": "At YIGO, real estate development is more than business — it is our legacy. Guided by innovation, responsibility, and sustainability, we design spaces that respond to each city's unique character while setting new standards for global living. We believe that great places are built by great people, and our culture of collaboration and excellence ensures that every project we deliver leaves a lasting mark on the world."
   },
   "ceo": {
-    "title": "DRIVEN BY VISION. GROUNDED IN EXPERIENCE.",
+    "title": "DRIVEN BY VISION.\nGROUNDED IN EXPERIENCE.",
     "subtitle": "Building the ideal coordinates for quality of life in Dubai",
+    "para1": "Dubai, a global metropolis known for its legend and vigour, not only attracts elite clients and investors from all over the world, but also carries the aspirations of countless Dubaiites for a high-class life. As the CEO of Yigo Group (development), I am always thinking: how can we use our expertise to create ideal homes with both living quality and investment value for this group of people who pursue excellence?",
+    "para2": "Their requirements for living are never \"just enough\": the ultimate in spatial design, the exquisite pursuit of living details, and the quality of high-end living in a foreign country; and for investment, they value \"quality-driven value-added\". For investment, they are more interested in \"quality-driven appreciation\" — only quality assets that can stand the test of time can match their long-term expectations for the future.",
+    "para3": "Over the 20 years, I have visited many of our clients' homes and had in-depth dialogues with global investors. We have deeply integrated Hong Kong's cutting-edge high-end living concepts with Dubai's local needs, and turned every demand for quality and every expectation for detail into the core direction of project development. We are never satisfied with \"building houses\", but insist on \"sculpting quality human settlements\" — not only to allow residents to enjoy high-end living experiences beyond expectations, but also to allow investors to reap the benefits of quality and robust value-added returns.",
+    "para4": "We will not only let the residents enjoy a high-end living experience that exceeds their expectations, but also let the investors enjoy a steady return on their investment empowered by quality. This is the long-term mission that the Yigo team and I are committed to in Dubai, and it is also our commitment to quality.",
     "signature": "CEO YIGO GROUP"
   }
 }

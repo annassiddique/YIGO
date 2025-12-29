@@ -2,9 +2,11 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import { useTranslation } from "react-i18next";
 import ProjectCarousel from "./ProjectCarousel";
 
 const FeaturedProjects = () => {
+  const { t } = useTranslation('home');
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
@@ -47,8 +49,8 @@ const FeaturedProjects = () => {
           <ProjectCarousel
             projects={projects}
             showTitle={true}
-            title="FEATURED PROJECTS"
-            description="Discover some of our most innovative and impactful projects that showcase our commitment to excellence and sustainability."
+            title={t('projects.title')}
+            description={t('projects.description')}
           />
         </motion.div>
       </div>

@@ -1,21 +1,23 @@
 /* eslint-disable no-unused-vars */
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { useInView } from 'react-intersection-observer';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { Mail, Phone, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const { t } = useTranslation(["home", "common"]);
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.2,
   });
 
   const [formData, setFormData] = useState({
-    name: '',
-    company: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    company: "",
+    email: "",
+    phone: "",
+    message: "",
   });
 
   const handleChange = (e) => {
@@ -27,13 +29,13 @@ const Contact = () => {
 
   const handleSubmit = () => {
     console.log(formData);
-    alert('Form submitted successfully!');
+    alert("Form submitted successfully!");
     setFormData({
-      name: '',
-      company: '',
-      email: '',
-      phone: '',
-      message: '',
+      name: "",
+      company: "",
+      email: "",
+      phone: "",
+      message: "",
     });
   };
 
@@ -50,17 +52,22 @@ const Contact = () => {
               className="space-y-8"
             >
               <h1 className="text-4xl lg:text-6xl font-light text-black leading-tight">
-                GET IN TOUCH
+                {t("home:contact.title")}
               </h1>
 
               <div className="space-y-6">
                 {/* Email */}
                 <div className="flex items-center gap-4">
                   <div className="w-6 h-6 shrink-0">
-                    <Mail className="w-full h-full text-black" strokeWidth={1.5} />
+                    <Mail
+                      className="w-full h-full text-black"
+                      strokeWidth={1.5}
+                    />
                   </div>
                   <div className="flex-1">
-                    <p className="text-black font-medium">Info@yigogroup.com</p>
+                    <p className="text-black font-medium">
+                      {t("common:footer.email")}
+                    </p>
                     <div className="w-full h-px bg-black mt-1"></div>
                   </div>
                 </div>
@@ -68,10 +75,15 @@ const Contact = () => {
                 {/* Phone */}
                 <div className="flex items-center gap-4">
                   <div className="w-6 h-6 shrink-0">
-                    <Phone className="w-full h-full text-black" strokeWidth={1.5} />
+                    <Phone
+                      className="w-full h-full text-black"
+                      strokeWidth={1.5}
+                    />
                   </div>
                   <div className="flex-1">
-                    <p className="text-black font-medium">+971 50 147 4794</p>
+                    <p className="text-black font-medium">
+                      {t("common:footer.phone")}
+                    </p>
                     <div className="w-full h-px bg-black mt-1"></div>
                   </div>
                 </div>
@@ -79,11 +91,14 @@ const Contact = () => {
                 {/* Address */}
                 <div className="flex items-center gap-4">
                   <div className="w-6 h-6 shrink-0">
-                    <MapPin className="w-full h-full text-black" strokeWidth={1.5} />
+                    <MapPin
+                      className="w-full h-full text-black"
+                      strokeWidth={1.5}
+                    />
                   </div>
                   <div className="flex-1">
                     <p className="text-black font-medium whitespace-pre-line">
-                      905-906, Court tower{'\n'}Business Bay{'\n'}Dubai
+                      {t("common:footer.address")}
                     </p>
                     <div className="w-full h-px bg-black mt-1"></div>
                   </div>
@@ -103,7 +118,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <label className="block text-black font-medium mb-2">
-                      NAME
+                      {t("home:contact.form.name")}
                     </label>
                     <div className="w-full h-px bg-black mb-2"></div>
                     <input
@@ -118,7 +133,7 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-black font-medium mb-2">
-                      COMPANY
+                      {t("home:contact.form.company")}
                     </label>
                     <div className="w-full h-px bg-black mb-2"></div>
                     <input
@@ -136,7 +151,7 @@ const Contact = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                   <div>
                     <label className="block text-black font-medium mb-2">
-                      EMAIL
+                      {t("home:contact.form.email")}
                     </label>
                     <div className="w-full h-px bg-black mb-2"></div>
                     <input
@@ -151,7 +166,7 @@ const Contact = () => {
 
                   <div>
                     <label className="block text-black font-medium mb-2">
-                      PHONE
+                      {t("home:contact.form.phone")}
                     </label>
                     <div className="w-full h-px bg-black mb-2"></div>
                     <input
@@ -168,7 +183,7 @@ const Contact = () => {
                 {/* Message */}
                 <div>
                   <label className="block text-black font-medium mb-2">
-                    TELL US MORE ABOUT YOUR INQUIRY
+                    {t("home:contact.form.message")}
                   </label>
                   <div className="w-full h-px bg-black mb-2"></div>
                   <textarea
@@ -189,7 +204,7 @@ const Contact = () => {
                     onClick={handleSubmit}
                     className="bg-black text-white px-8 py-3 rounded-full font-medium hover:bg-gray-800 transition-colors"
                   >
-                    SEND
+                    {t("common:buttons.send")}
                   </motion.button>
                 </div>
               </div>

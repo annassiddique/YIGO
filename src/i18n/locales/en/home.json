@@ -2,11 +2,21 @@
   "hero": {
     "scrollPrompt": "SCROLL TO BEGIN"
   },
+  "video": {
+    "title1": "WHERE CITIES EVOLVE,",
+    "title2": "LEGACIES BEGIN."
+  },
   "journey": {
     "title": "THE YIGO JOURNEY:",
     "subtitle": "HONG KONG → GLOBAL",
     "description1": "Born in Hong Kong at the crossroads of East and West, YIGO embodies a spirit of vision, resilience, and action for the future.",
     "description2": "With global experience and innovative thinking, we create spaces that respond to each city's unique needs—redefining how the world lives.",
+    "locations": {
+      "hongKong": "HONG KONG",
+      "dubai": "DUBAI",
+      "riyadh": "RIYADH",
+      "ireland": "IRELAND"
+    },
     "stats": {
       "years": "Years in Business",
       "destinations": "Destinations",
@@ -22,22 +32,66 @@
     "amenities": {
       "title": "AMENITIES",
       "heading": "Wellness at Your Doorstep",
-      "description": "Our amenities are designed to transform everyday living into a resort-like experience.",
+      "description": "Our amenities are designed to transform everyday living into a resort-like experience. From leisure to wellness, each feature enhances comfort while fostering a sense of community.",
       "features": [
         "Resort-style swimming pool for relaxation and recreation.",
         "Fully equipped fitness center with modern training zones.",
         "Landscaped gardens, kids' play areas, and social lounges."
-      ]
+      ],
+      "imageCaptions": {
+        "pool": "An oasis of calm — the pool designed for leisure and family moments.",
+        "fitness": "Wellness at your doorstep — state-of-the-art fitness facilities.",
+        "community": "Landscaped community spaces designed to bring neighbors together."
+      }
+    },
+    "urbanLiving": {
+      "title": "URBAN LIVING",
+      "heading": "A Neighborhood That Thrives",
+      "description": "Here, city energy meets residential charm. With boutique cafés, walkable streets, and vibrant social spaces, life flows seamlessly between work, leisure, and community.",
+      "features": [
+        "A thriving hub with shopping, dining, and lifestyle outlets.",
+        "Walkable boulevards and gathering spaces for connection.",
+        "Easy access to the city while enjoying a calm retreat."
+      ],
+      "imageCaptions": {
+        "urban": "Urban lifestyle with modern conveniences and connectivity.",
+        "vibrant": "Vibrant community spaces designed for social interaction."
+      }
+    },
+    "interiors": {
+      "title": "INTERIORS",
+      "heading": "Timeless Elegance Inside",
+      "description": "Every home is crafted with attention to detail, combining modern functionality with sophisticated finishes. Spacious layouts and natural light create interiors that feel warm, refined, and enduring.",
+      "features": [
+        "Open-plan living designed for modern lifestyles.",
+        "Premium finishes with elegant material palettes.",
+        "Smart kitchens, serene bedrooms, and inviting living spaces."
+      ],
+      "imageCaptions": {
+        "rooms": "Rooms that reflect peace, privacy, and timeless design.",
+        "living": "Bright, open living rooms designed for comfort and style."
+      }
     }
   },
   "craftsmanship": {
     "title": "CRAFTSMANSHIP",
-    "description": "Every detail is a testament to precision and passion. From the choice of materials to the finesse of finishing, each element reflects an unwavering commitment to quality."
+    "description": "Every detail is a testament to precision and passion. From the choice of materials to the finesse of finishing, each element reflects an unwavering commitment to quality. Spaces are not just built — they are crafted, shaped by artisanship that balances timeless elegance with modern functionality. The result is a home that feels refined, enduring, and truly personal."
   },
   "news": {
     "title": "NEWS & MEDIA",
     "description": "Stay updated with our latest achievements, announcements, and insights from the world of innovation and design.",
-    "viewAll": "View All News & Media"
+    "viewAll": "View All News & Media",
+    "categories": {
+      "news": "NEWS",
+      "press": "PRESS",
+      "media": "MEDIA"
+    },
+    "articles": {
+      "madridAward": "YIGO Wins Gold at the Architecture Madrid Awards 2025",
+      "newEra": "YIGO Launches a New Era of Living in Dubai's International City",
+      "expansion": "YIGO Group Expands into Dubai's Dynamic Real Estate Market",
+      "familyFriendly": "The Best Family-Friendly Communities in Dubai (2025 Guide)"
+    }
   },
   "contact": {
     "title": "GET IN TOUCH",

@@ -29,6 +29,7 @@
   },
   "openPositions": "OPEN POSITIONS",
   "openPositionsDesc": "Explore our current openings and find the perfect role for your skills and interests.",
+  "applyNow": "Apply Now",
   "positions": {
     "sales": {
       "title": "Sales",

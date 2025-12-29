@@ -1,10 +1,11 @@
 {
   "title": "NEWS & MEDIA",
-  "subtitle": "Discover the YIGO story as it unfolds — from landmark project launches to global milestones.",
+  "subtitle": "Discover the YIGO story as it unfolds — from landmark project launches to global milestones. Stay updated with the latest news, insights, and media highlights from YIGO Group's journey across, Hong Kong, Ireland, Saudi Arabia, and the UAE.",
   "featuredStories": "FEATURED STORIES",
   "featuredDesc": "Our most important news and announcements",
   "latestNews": "LATEST NEWS",
   "latestDesc": "All our recent news and updates",
+  "featured": "Featured",
   "categories": {
     "news": "News",
     "press": "Press",
@@ -17,7 +18,7 @@
     },
     "familyFriendly": {
       "title": "THE BEST FAMILY-FRIENDLY COMMUNITIES IN DUBAI (2025 GUIDE)",
-      "excerpt": "Dubai is home to some of the world's most thoughtfully planned residential communities."
+      "excerpt": "Dubai is home to some of the world's most thoughtfully planned residential communities. From Dubai Hills Estate and Arabian Ranches to the growing International City, each area offers unique benefits for family life."
     },
     "newEra": {
       "title": "YIGO LAUNCHES A NEW ERA OF LIVING IN DUBAI'S INTERNATIONAL CITY",
@@ -25,11 +26,11 @@
     },
     "expansion": {
       "title": "YIGO GROUP EXPANDS INTO DUBAI'S DYNAMIC REAL ESTATE MARKET",
-      "excerpt": "With over 23 years of experience in Asia and Europe, YIGO Group marks its strategic expansion into Dubai's real estate market."
+      "excerpt": "With over 23 years of experience in Asia and Europe, YIGO Group marks its strategic expansion into Dubai's real estate market. Known for combining architectural innovation with long-term value creation, YIGO brings a new standard of international living to the UAE."
     },
     "investing": {
       "title": "INVESTING IN DUBAI PROPERTY – THE PROS AND CONS YOU SHOULD KNOW",
-      "excerpt": "Dubai continues to rank among the most attractive real estate markets worldwide."
+      "excerpt": "Dubai continues to rank among the most attractive real estate markets worldwide. Tax-free ownership, high rental yields, and world-class infrastructure make it a top destination for property investors."
     }
   }
 }
