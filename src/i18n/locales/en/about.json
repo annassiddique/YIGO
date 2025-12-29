@@ -1,0 +1,19 @@
+{
+  "hero": {
+    "title": "THE YIGO STORY"
+  },
+  "title": "ABOUT YIGO DEVELOPMENT",
+  "content": {
+    "para1": "YIGO began with a bold vision: to transform skylines and communities by blending architectural ambition, cultural insight, and global reach.",
+    "para2": "Each step in this journey reflects our core belief: built environments should be more than structures — they should nurture lives, connect people, and support sustainable growth."
+  },
+  "leadership": {
+    "title": "LEADING WITH EXCELLENCE",
+    "content": "Since its inception and the establishment of its Hong Kong headquarters, YIGO Group has evolved into a global enterprise with a clear mission."
+  },
+  "ceo": {
+    "title": "DRIVEN BY VISION. GROUNDED IN EXPERIENCE.",
+    "subtitle": "Building the ideal coordinates for quality of life in Dubai",
+    "signature": "CEO YIGO GROUP"
+  }
+}

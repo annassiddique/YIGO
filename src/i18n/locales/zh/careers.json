@@ -1,0 +1,63 @@
+{
+  "title": "寻找有目标的职业？",
+  "subtitle": "我们正在建立一种创新、协作和成长的文化。加入我们，通过卓越的工作创造有意义的影响。与YIGO一起建设明天，今天。",
+  "benefits": {
+    "salary": {
+      "title": "具有竞争力的薪酬",
+      "description": "我们提供反映您技能和经验的有竞争力的薪酬方案。"
+    },
+    "health": {
+      "title": "健康与福利",
+      "description": "全面的健康保险。"
+    },
+    "flexible": {
+      "title": "灵活工作",
+      "description": "远程工作选项和灵活的工作时间，以支持工作与生活的平衡。"
+    },
+    "learning": {
+      "title": "学习与发展",
+      "description": "专业发展预算和成长机会。"
+    },
+    "events": {
+      "title": "团队活动",
+      "description": "定期的团队建设活动和公司静修。"
+    },
+    "innovation": {
+      "title": "创新时间",
+      "description": "专门的时间来进行个人项目和探索新想法。"
+    }
+  },
+  "openPositions": "招聘职位",
+  "openPositionsDesc": "探索我们当前的职位空缺，找到适合您技能和兴趣的完美角色。",
+  "positions": {
+    "sales": {
+      "title": "销售",
+      "description": "加入我们的销售职能，建立牢固的客户关系，识别新机会，并通过绩效驱动的策略和结果推动增长。"
+    },
+    "marketing": {
+      "title": "市场营销",
+      "description": "成为塑造品牌认知、推动参与并通过数字和传统渠道提供有影响力的活动的创意团队的一部分。"
+    },
+    "projectManagement": {
+      "title": "项目管理",
+      "description": "从概念到完成监督项目，确保顺利协调、及时交付和遵守最高质量标准。"
+    },
+    "engineering": {
+      "title": "工程",
+      "description": "在将愿景转化为结构中发挥关键作用——确保每个项目都以精确、创新和技术卓越构建。"
+    },
+    "admin": {
+      "title": "行政",
+      "description": "通过有效的协调、文档和跨部门沟通支持组织的日常运营。"
+    },
+    "finance": {
+      "title": "财务",
+      "description": "管理财务规划、预算和报告，以保持稳定性、优化资源并推动可持续的业务增长。"
+    }
+  },
+  "location": "迪拜",
+  "type": "全职",
+  "noRoleTitle": "没有看到合适的角色？",
+  "noRoleDesc": "我们一直在寻找有才华的人加入我们的团队。发送您的简历，让我们知道您想如何贡献。",
+  "sendResume": "发送您的简历"
+}

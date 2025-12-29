@@ -67,18 +67,18 @@ const LifestyleSection = () => {
       ],
       images: [
         {
-          src: "/public/images/lifestyle/1.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Fwellness_zone.webp&w=640&q=75",
           caption:
             "An oasis of calm — the pool designed for leisure and family moments.",
           large: true,
         },
         {
-          src: "/public/images/lifestyle/2.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Flobby.webp&w=828&q=75",
           caption:
             "Wellness at your doorstep — state-of-the-art fitness facilities.",
         },
         {
-          src: "/public/images/lifestyle/3.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Fpool.webp&w=750&q=75",
           caption:
             "Landscaped community spaces designed to bring neighbors together.",
         },
@@ -97,12 +97,12 @@ const LifestyleSection = () => {
       ],
       images: [
         {
-          src: "/public/images/lifestyle/4.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Furban_living.webp&w=3840&q=75",
           caption: "Urban lifestyle with modern conveniences and connectivity.",
           large: true,
         },
         {
-          src: "/public/images/lifestyle/5.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Furban_living_2.webp&w=750&q=75",
           caption: "Vibrant community spaces designed for social interaction.",
         },
       ],
@@ -120,12 +120,12 @@ const LifestyleSection = () => {
       ],
       images: [
         {
-          src: "/public/images/lifestyle/6.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Finteriors.webp&w=2048&q=75",
           caption: "Rooms that reflect peace, privacy, and timeless design.",
           large: true,
         },
         {
-          src: "/public/images/lifestyle/7.jpg",
+          src: "https://yigogroup.ae/_next/image?url=%2Fimages%2Finteriors_2.webp&w=1080&q=75",
           caption: "Bright, open living rooms designed for comfort and style.",
         },
       ],
@@ -158,8 +158,8 @@ const LifestyleSection = () => {
                 </div>
 
                 {/* Content at bottom */}
-                <div className="border-t border-black/20 pt-6 md:mt-auto md:ml-15 lg:ml-105 lg:max-w-105">
-                  <h3 className="text-xl sm:text-2xl lg:text-4xl font-normal text-gray-900 mb-5 tracking-wide leading-tight">
+                <div className="border-t border-black/20 pt-6 md:mt-auto md:ml-15 ">
+                  <h3 className="text-xl sm:text-2xl lg:text-2xl font-normal text-gray-900 mb-5 tracking-wide leading-tight">
                     {panel.heading}
                   </h3>
                   <p className="text-base font-light text-gray-600 max-w-lg leading-snug mb-4">

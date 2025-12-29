@@ -1,0 +1,63 @@
+{
+  "title": "LOOKING FOR A CAREER WITH PURPOSE?",
+  "subtitle": "We're building a culture of innovation, collaboration, and growth. Join us in creating meaningful impact through exceptional work. Build Tomorrow, Today with YIGO.",
+  "benefits": {
+    "salary": {
+      "title": "COMPETITIVE SALARY",
+      "description": "We offer competitive compensation packages that reflect your skills and experience."
+    },
+    "health": {
+      "title": "HEALTH & WELLNESS",
+      "description": "Comprehensive health insurance."
+    },
+    "flexible": {
+      "title": "FLEXIBLE WORK",
+      "description": "Remote work options and flexible hours to support work-life balance."
+    },
+    "learning": {
+      "title": "LEARNING & DEVELOPMENT",
+      "description": "Professional development budget and opportunities for growth."
+    },
+    "events": {
+      "title": "TEAM EVENTS",
+      "description": "Regular team building activities and company retreats."
+    },
+    "innovation": {
+      "title": "INNOVATION TIME",
+      "description": "Dedicated time to work on personal projects and explore new ideas."
+    }
+  },
+  "openPositions": "OPEN POSITIONS",
+  "openPositionsDesc": "Explore our current openings and find the perfect role for your skills and interests.",
+  "positions": {
+    "sales": {
+      "title": "Sales",
+      "description": "Join our sales function to build strong client relationships, identify new opportunities, and drive growth through performance-driven strategies and results."
+    },
+    "marketing": {
+      "title": "Marketing",
+      "description": "Be part of a creative team that shapes brand perception, drives engagement, and delivers impactful campaigns across digital and traditional channels."
+    },
+    "projectManagement": {
+      "title": "Project Management",
+      "description": "Oversee projects from concept to completion, ensuring smooth coordination, timely delivery, and adherence to the highest quality standards."
+    },
+    "engineering": {
+      "title": "Engineering",
+      "description": "Play a key role in translating vision into structure — ensuring every project is built with precision, innovation, and technical excellence."
+    },
+    "admin": {
+      "title": "Admin",
+      "description": "Support the organization's daily operations through effective coordination, documentation, and communication across departments."
+    },
+    "finance": {
+      "title": "Finance",
+      "description": "Manage financial planning, budgeting, and reporting to maintain stability, optimize resources, and drive sustainable business growth."
+    }
+  },
+  "location": "Dubai",
+  "type": "Full-time",
+  "noRoleTitle": "DON'T SEE THE RIGHT ROLE?",
+  "noRoleDesc": "We're always looking for talented individuals to join our team. Send us your resume and let us know how you'd like to contribute.",
+  "sendResume": "Send Your Resume"
+}

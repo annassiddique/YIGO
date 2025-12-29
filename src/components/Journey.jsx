@@ -114,7 +114,7 @@ const Journey = () => {
                   className="w-full h-full"
                 >
                   <img
-                    src="/public/images/journey/Riyad.jpg"
+                    src="https://yigogroup.ae/_next/image?url=%2Fimages%2Friyadh.webp&w=1920&q=75"
                     alt="Riyadh"
                     className="w-full h-full object-cover"
                   />
@@ -159,7 +159,7 @@ const Journey = () => {
                   className="w-full h-full"
                 >
                   <img
-                    src="/public/images/journey/hongkong.jpg"
+                    src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fhongkong.webp&w=1920&q=75"
                     alt="Hong Kong"
                     className="w-full h-full object-cover"
                   />
@@ -202,7 +202,7 @@ const Journey = () => {
                   className="w-full h-full"
                 >
                   <img
-                    src="/public/images/journey/Dubai.jpg"
+                    src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fdubai.webp&w=1920&q=75"
                     alt="Dubai"
                     className="w-full h-full object-cover"
                   />
@@ -245,7 +245,7 @@ const Journey = () => {
                   className="w-full h-full"
                 >
                   <img
-                    src="/public/images/journey/Ireland.jpg"
+                    src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fireland.webp&w=2048&q=75"
                     alt="Ireland"
                     className="w-full h-full object-cover"
                   />

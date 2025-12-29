@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "scrollPrompt": "SCROLL TO BEGIN"
+  },
+  "journey": {
+    "title": "THE YIGO JOURNEY:",
+    "subtitle": "HONG KONG → GLOBAL",
+    "description1": "Born in Hong Kong at the crossroads of East and West, YIGO embodies a spirit of vision, resilience, and action for the future.",
+    "description2": "With global experience and innovative thinking, we create spaces that respond to each city's unique needs—redefining how the world lives.",
+    "stats": {
+      "years": "Years in Business",
+      "destinations": "Destinations",
+      "masterpieces": "Masterpieces",
+      "portfolio": "Portfolio"
+    }
+  },
+  "projects": {
+    "title": "FEATURED PROJECTS",
+    "description": "Discover some of our most innovative and impactful projects that showcase our commitment to excellence and sustainability."
+  },
+  "lifestyle": {
+    "amenities": {
+      "title": "AMENITIES",
+      "heading": "Wellness at Your Doorstep",
+      "description": "Our amenities are designed to transform everyday living into a resort-like experience.",
+      "features": [
+        "Resort-style swimming pool for relaxation and recreation.",
+        "Fully equipped fitness center with modern training zones.",
+        "Landscaped gardens, kids' play areas, and social lounges."
+      ]
+    }
+  },
+  "craftsmanship": {
+    "title": "CRAFTSMANSHIP",
+    "description": "Every detail is a testament to precision and passion. From the choice of materials to the finesse of finishing, each element reflects an unwavering commitment to quality."
+  },
+  "news": {
+    "title": "NEWS & MEDIA",
+    "description": "Stay updated with our latest achievements, announcements, and insights from the world of innovation and design.",
+    "viewAll": "View All News & Media"
+  },
+  "contact": {
+    "title": "GET IN TOUCH",
+    "form": {
+      "name": "NAME",
+      "company": "COMPANY",
+      "email": "EMAIL",
+      "phone": "PHONE",
+      "message": "TELL US MORE ABOUT YOUR INQUIRY"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "careers": "Careers",
+    "newsMedia": "News & Media",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "requestCall": "REQUEST A CALL",
+    "menu": "MENU",
+    "viewAll": "View All",
+    "apply": "Apply Now",
+    "send": "SEND",
+    "scrollBegin": "SCROLL TO BEGIN",
+    "learnMore": "Learn More"
+  },
+  "footer": {
+    "contact": "Contact",
+    "salesOffice": "SALES OFFICE",
+    "address": "905-906, Court tower\nBusiness Bay\nDubai",
+    "email": "Info@yigogroup.com",
+    "phone": "+971 50 147 4794",
+    "rights": "©YIGO — 2025 ALL RIGHTS RESERVED",
+    "terms": "TERMS & CONDITIONS",
+    "madeBy": "MADE BY STELEO"
+  }
+}

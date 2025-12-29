@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "projects": "项目",
+    "careers": "职业机会",
+    "newsMedia": "新闻媒体",
+    "contact": "联系我们"
+  },
+  "buttons": {
+    "requestCall": "请求回电",
+    "menu": "菜单",
+    "viewAll": "查看全部",
+    "apply": "立即申请",
+    "send": "发送",
+    "scrollBegin": "向下滚动开始",
+    "learnMore": "了解更多"
+  },
+  "footer": {
+    "contact": "联系方式",
+    "salesOffice": "销售办公室",
+    "address": "905-906, Court tower\nBusiness Bay\n迪拜",
+    "email": "Info@yigogroup.com",
+    "phone": "+971 50 147 4794",
+    "rights": "©YIGO — 2025 版权所有",
+    "terms": "条款和条件",
+    "madeBy": "由STELEO制作"
+  }
+}
+

@@ -1,0 +1,35 @@
+{
+  "title": "NEWS & MEDIA",
+  "subtitle": "Discover the YIGO story as it unfolds — from landmark project launches to global milestones.",
+  "featuredStories": "FEATURED STORIES",
+  "featuredDesc": "Our most important news and announcements",
+  "latestNews": "LATEST NEWS",
+  "latestDesc": "All our recent news and updates",
+  "categories": {
+    "news": "News",
+    "press": "Press",
+    "media": "Media"
+  },
+  "articles": {
+    "madridAward": {
+      "title": "YIGO WINS GOLD AT THE ARCHITECTURE MADRID AWARDS 2025",
+      "excerpt": "YIGO Group has earned global recognition at the Architecture Madrid Awards 2025, winning Gold in Residential Architecture for its Dubai flagship project, CBD26."
+    },
+    "familyFriendly": {
+      "title": "THE BEST FAMILY-FRIENDLY COMMUNITIES IN DUBAI (2025 GUIDE)",
+      "excerpt": "Dubai is home to some of the world's most thoughtfully planned residential communities."
+    },
+    "newEra": {
+      "title": "YIGO LAUNCHES A NEW ERA OF LIVING IN DUBAI'S INTERNATIONAL CITY",
+      "excerpt": "YIGO Group has officially launched its first Middle Eastern development, located at Plot CBD26 in Dubai's International City."
+    },
+    "expansion": {
+      "title": "YIGO GROUP EXPANDS INTO DUBAI'S DYNAMIC REAL ESTATE MARKET",
+      "excerpt": "With over 23 years of experience in Asia and Europe, YIGO Group marks its strategic expansion into Dubai's real estate market."
+    },
+    "investing": {
+      "title": "INVESTING IN DUBAI PROPERTY – THE PROS AND CONS YOU SHOULD KNOW",
+      "excerpt": "Dubai continues to rank among the most attractive real estate markets worldwide."
+    }
+  }
+}

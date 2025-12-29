@@ -1,0 +1,10 @@
+{
+  "title": "GET IN TOUCH",
+  "form": {
+    "name": "NAME",
+    "company": "COMPANY",
+    "email": "EMAIL",
+    "phone": "PHONE",
+    "message": "TELL US MORE ABOUT YOUR INQUIRY"
+  }
+}

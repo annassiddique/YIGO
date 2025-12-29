@@ -41,8 +41,8 @@ const VideoSection = () => {
               playsInline
               className="w-full h-full object-cover  shadow-2xl"
             >
-              {/* <source src="/public/videos/brand_video2 .mp4" type="video/mp4" /> */}
-              <source src="https://foldr.space/f/5MFEjSL0Md1UwqNS" type="video/mp4" />
+              <source src="https://yigogroup.ae/images/yigo_home_video.mp4" type="video/mp4" />
+              {/* <source src="https://foldr.space/f/5MFEjSL0Md1UwqNS" type="video/mp4" /> */}
             </video>
             <div className="absolute inset-0 bg-black/30 " />
           </motion.div>

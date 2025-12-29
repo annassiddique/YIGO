@@ -1,0 +1,35 @@
+{
+  "title": "新闻与媒体",
+  "subtitle": "见证YIGO的故事——从标志性项目启动到全球里程碑。",
+  "featuredStories": "精选故事",
+  "featuredDesc": "我们最重要的新闻和公告",
+  "latestNews": "最新新闻",
+  "latestDesc": "我们所有的最新消息和更新",
+  "categories": {
+    "news": "新闻",
+    "press": "新闻稿",
+    "media": "媒体"
+  },
+  "articles": {
+    "madridAward": {
+      "title": "YIGO在2025年马德里建筑奖上荣获金奖",
+      "excerpt": "YIGO集团在2025年马德里建筑奖上获得全球认可，其迪拜旗舰项目CBD26荣获住宅建筑金奖。"
+    },
+    "familyFriendly": {
+      "title": "迪拜最佳家庭友好社区（2025年指南）",
+      "excerpt": "迪拜拥有世界上一些规划最周到的住宅社区。"
+    },
+    "newEra": {
+      "title": "YIGO在迪拜国际城开启生活新时代",
+      "excerpt": "YIGO集团正式推出其首个中东开发项目，位于迪拜国际城CBD26地块。"
+    },
+    "expansion": {
+      "title": "YIGO集团进军迪拜活力房地产市场",
+      "excerpt": "凭借在亚洲和欧洲超过23年的经验，YIGO集团标志着其在迪拜房地产市场的战略扩张。"
+    },
+    "investing": {
+      "title": "投资迪拜房产——您应该知道的利弊",
+      "excerpt": "迪拜继续跻身全球最具吸引力的房地产市场之列。"
+    }
+  }
+}

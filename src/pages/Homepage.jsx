@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import Header from "../components/Header";
+import React from "react";
+import { useTranslation } from "react-i18next";
+import { useHeader } from "../context/HeaderContext";
 import Hero from "../components/Hero";
 import VideoSection from "../components/VideoSection";
 import Journey from "../components/Journey";
@@ -8,14 +9,13 @@ import LifestyleSection from "../components/LifestyleSection";
 import Craftsmanship from "../components/Craftsmanship";
 import NewsMedia from "../components/NewsMedia";
 import Contact from "../components/Contact";
-import Footer from "../components/Footer";
 
 const Homepage = () => {
-  const [logoVisible, setLogoVisible] = useState(false);
+  const { setLogoVisible } = useHeader();
+  const { t } = useTranslation("home");
 
   return (
     <div className="overflow-hidden">
-      <Header logoVisible={logoVisible} />
       <Hero onLogoVisibilityChange={setLogoVisible} />
       <div className="overflow-x-hidden">
         <VideoSection />

@@ -1,0 +1,52 @@
+{
+  "hero": {
+    "scrollPrompt": "向下滚动开始"
+  },
+  "journey": {
+    "title": "YIGO之旅：",
+    "subtitle": "香港 → 全球",
+    "description1": "YIGO诞生于香港，处于东西方的十字路口，体现了远见、韧性和对未来的行动精神。",
+    "description2": "凭借全球经验和创新思维，我们创造响应每个城市独特需求的空间——重新定义世界的生活方式。",
+    "stats": {
+      "years": "经营年限",
+      "destinations": "业务城市",
+      "masterpieces": "杰作项目",
+      "portfolio": "投资组合"
+    }
+  },
+  "projects": {
+    "title": "精选项目",
+    "description": "探索我们最具创新性和影响力的项目，展示我们对卓越和可持续发展的承诺。"
+  },
+  "lifestyle": {
+    "amenities": {
+      "title": "设施",
+      "heading": "触手可及的健康生活",
+      "description": "我们的设施旨在将日常生活转变为度假式体验。",
+      "features": [
+        "度假式游泳池，用于放松和娱乐。",
+        "配备现代训练区的全套健身中心。",
+        "景观花园、儿童游乐区和社交休息室。"
+      ]
+    }
+  },
+  "craftsmanship": {
+    "title": "工艺精神",
+    "description": "每一个细节都是精准和激情的证明。从材料的选择到精细的finishing，每个元素都反映了对质量的坚定承诺。"
+  },
+  "news": {
+    "title": "新闻与媒体",
+    "description": "了解我们最新的成就、公告以及来自创新和设计世界的见解。",
+    "viewAll": "查看所有新闻与媒体"
+  },
+  "contact": {
+    "title": "联系我们",
+    "form": {
+      "name": "姓名",
+      "company": "公司",
+      "email": "电子邮件",
+      "phone": "电话",
+      "message": "告诉我们更多关于您的咨询"
+    }
+  }
+}
