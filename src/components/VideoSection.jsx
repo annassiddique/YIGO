@@ -30,10 +30,7 @@ const VideoSection = () => {
           style={{ scale, y }}
           className="relative w-full h-full flex items-center justify-center"
         >
-          <motion.div
-            style={{ opacity }}
-            className="relative w-full h-full "
-          >
+          <motion.div style={{ opacity }} className="relative w-full h-full ">
             <video
               autoPlay
               muted
@@ -41,10 +38,23 @@ const VideoSection = () => {
               playsInline
               className="w-full h-full object-cover  shadow-2xl"
             >
-              <source src="https://yigogroup.ae/images/yigo_home_video.mp4" type="video/mp4" />
+              <source
+                src="https://yigogroup.ae/images/yigo_home_video.mp4"
+                type="video/mp4"
+              />
               {/* <source src="https://foldr.space/f/5MFEjSL0Md1UwqNS" type="video/mp4" /> */}
             </video>
             <div className="absolute inset-0 bg-black/30 " />
+            <motion.div
+              style={{ opacity }}
+              className="absolute top-40 left-8 sm:left-12 lg:left-16 z-10 text-white max-w-2xl"
+            >
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-normal leading-tight text-left">
+                WHERE CITIES EVOLVE,
+                <br />
+                <span className="">LEGACIES BEGIN.</span>
+              </h2>
+            </motion.div>
           </motion.div>
         </motion.div>
       </div>

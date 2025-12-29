@@ -75,7 +75,7 @@ const Aboutpage = () => {
         {/* Hero Section */}
         <section className="relative h-screen w-full overflow-hidden">
           <img
-            src="/public/images/project/1.jpg"
+            src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fabout_header.png&w=828&q=75"
             alt="YIGO Development"
             className="absolute inset-0 w-full h-full object-cover object-center"
           />
@@ -168,7 +168,7 @@ const Aboutpage = () => {
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
                 <img
-                  src="/public/images/skyline.png"
+                  src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fabout_us.png&w=3840&q=75"
                   alt="Global Cityscape"
                   className="w-full h-auto object-cover"
                 />
@@ -303,7 +303,7 @@ const Aboutpage = () => {
                   className="flex justify-start"
                 >
                   <img
-                    src="/public/images/CEO_Signature.png"
+                    src="https://yigogroup.ae/_next/image?url=%2Fimages%2Fabout_sign.png&w=256&q=75"
                     alt="CEO Signature"
                     className="w-48 h-auto object-contain"
                   />

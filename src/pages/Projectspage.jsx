@@ -16,28 +16,45 @@ const Projectspage = () => {
   });
 
   const projects = [
-    { name: "Beihu Splendor Residence", image: "/public/images/project/1.jpg" },
+    {
+      name: "Beihu Splendor Residence",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fbeihu-splendor-residence%2Fcover.webp&w=750&q=75",
+    },
     {
       name: "Donghu International Hotel",
-      image: "/public/images/project/2.png",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fdonghu-international-hotel%2Fcover.webp&w=640&q=75",
     },
     {
       name: "Mansion Court Hotel Apartment",
-      image: "/public/images/project/3.jpg",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fmansion-court-hotel-apartment%2Fcover.webp&w=750&q=75",
     },
-    { name: "Moher Cloud Cape Villas", image: "/public/images/project/4.jpg" },
+    {
+      name: "Moher Cloud Cape Villas",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fmoher-cloud-cape-villas%2Fcover.webp&w=750&q=75",
+    },
     {
       name: "YIGO26 International City – Dubai",
-      image: "/public/images/project/5.jpg",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fyigo-residence%2Fcover.jpg&w=828&q=75",
     },
-    { name: "Zhongzhou One Residence", image: "/public/images/project/1.jpg" },
+    {
+      name: "Zhongzhou One Residence",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fzhongzhou-one-residence%2F1.webp&w=750&q=75",
+    },
     {
       name: "Jiangxi International Business Center",
-      image: "/public/images/project/6.png",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fjiangxi-international-business-center%2F1.webp&w=750&q=75",
     },
     {
       name: "Minle Culture & Creative Park",
-      image: "/public/images/project/1.jpg",
+      image:
+        "https://yigogroup.ae/_next/image?url=%2Fimages%2Fprojects%2Fminle-culture-creative-park%2F1.webp&w=640&q=75",
     },
   ];
 
