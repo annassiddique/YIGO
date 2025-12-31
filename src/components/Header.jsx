@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 import React, { useState, useEffect } from "react";
 import { Menu } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
@@ -7,20 +8,56 @@ import LanguageSwitcher from "./LanguageSwitcher";
 
 const Header = ({ showLogo = false }) => {
   const { logoVisible } = useHeader();
-  const { t } = useTranslation('common');
+  const { t } = useTranslation("common");
   const { lang } = useParams();
-  const currentLang = lang || 'en';
-  
+  const currentLang = lang || "en";
+
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [mounted, setMounted] = useState(false);
+  const [inHeroSection, setInHeroSection] = useState(true);
+  const [showHeaderLogo, setShowHeaderLogo] = useState(false);
 
-  const shouldShowLogo = showLogo || logoVisible;
+  useEffect(() => {
+    const handleHeroStatus = (e) => {
+      const wasInHero = inHeroSection;
+      const nowInHero = e.detail.active;
+      
+      setInHeroSection(nowInHero);
+
+      // When hero section becomes inactive (logo animation complete)
+      if (!nowInHero && wasInHero) {
+        // Show header logo immediately for seamless transition
+        // The hero logo fades out as it reaches header position
+        setShowHeaderLogo(true);
+      } 
+      // When scrolling back into hero section
+      else if (nowInHero && !wasInHero) {
+        // Hide header logo when entering hero section again
+        setShowHeaderLogo(false);
+      }
+    };
+
+    window.addEventListener("heroSectionActive", handleHeroStatus);
+
+    return () => {
+      window.removeEventListener("heroSectionActive", handleHeroStatus);
+    };
+  }, [inHeroSection]);
+
+  const shouldShowLogo = (showLogo || logoVisible) && showHeaderLogo;
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
+
+      // Always visible in hero section
+      if (inHeroSection) {
+        setIsVisible(true);
+        setLastScrollY(currentScrollY);
+        return;
+      }
 
       if (currentScrollY > lastScrollY && currentScrollY > 100) {
         setIsVisible(false);
@@ -33,7 +70,7 @@ const Header = ({ showLogo = false }) => {
 
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
-  }, [lastScrollY]);
+  }, [lastScrollY, inHeroSection]);
 
   useEffect(() => {
     if (isMenuOpen) {
@@ -45,11 +82,11 @@ const Header = ({ showLogo = false }) => {
   }, [isMenuOpen, mounted]);
 
   const navItems = [
-    { label: t('nav.about'), href: `/${currentLang}/about` },
-    { label: t('nav.projects'), href: `/${currentLang}/projects` },
-    { label: t('nav.newsMedia'), href: `/${currentLang}/news-media` },
-    { label: t('nav.careers'), href: `/${currentLang}/careers` },
-    { label: t('nav.contact'), href: `/${currentLang}/contact` },
+    { label: t("nav.about"), href: `/${currentLang}/about` },
+    { label: t("nav.projects"), href: `/${currentLang}/projects` },
+    { label: t("nav.newsMedia"), href: `/${currentLang}/news-media` },
+    { label: t("nav.careers"), href: `/${currentLang}/careers` },
+    { label: t("nav.contact"), href: `/${currentLang}/contact` },
   ];
 
   return (
@@ -65,19 +102,22 @@ const Header = ({ showLogo = false }) => {
             onClick={() => setIsMenuOpen(true)}
             className="bg-black text-white px-4 py-2 rounded-full font-medium text-sm flex items-center gap-2 hover:bg-gray-800 transition-colors"
           >
-            {t('buttons.menu')} <Menu className="w-4 h-4" />
+            {t("buttons.menu")} <Menu className="w-4 h-4" />
           </button>
 
           {shouldShowLogo && (
             <div
-              className={`fixed top-6 left-[35%] md:left-[43%] transition-transform duration-300 z-60 ${
-                isVisible ? "translate-y-0" : "-translate-y-[160%]"
+              className={`fixed top-6 left-[35%] md:left-[43%] transition-all duration-500 z-60 ${
+                isVisible ? "translate-y-0 opacity-100" : "-translate-y-[160%] opacity-0"
               } ${isMenuOpen ? "hidden sm:block" : ""}`}
+              style={{
+                transition: "opacity 0.3s ease-in-out, transform 0.3s ease-in-out",
+              }}
             >
               <Link to={`/${currentLang}`}>
                 <img
                   src="https://yigogroup.ae/images/logo.svg"
-                  className="w-32"
+                  className="w-32 transition-all duration-300"
                   alt="YIGO Logo"
                 />
               </Link>
@@ -86,7 +126,7 @@ const Header = ({ showLogo = false }) => {
 
           <div className="flex items-center gap-3">
             <button className="hidden md:block bg-black text-white px-6 py-2 rounded-full font-medium text-sm hover:bg-gray-800 transition-colors">
-              {t('buttons.requestCall')}
+              {t("buttons.requestCall")}
             </button>
             <LanguageSwitcher />
             <button className="hidden md:block h-12 w-12 p-1">
