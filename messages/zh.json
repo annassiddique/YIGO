@@ -1,0 +1,443 @@
+{
+  "navigation": {
+    "home": "首页",
+    "about": "关于我们",
+    "projects": "项目",
+    "newsMedia": "新闻媒体",
+    "careers": "招聘",
+    "contact": "联系我们",
+    "terms": "条款与条件"
+  },
+  "header": {
+    "requestCall": "申请通话",
+    "menu": "菜单"
+  },
+  "footer": {
+    "contact": "联系方式",
+    "salesOffice": "销售办公室",
+    "address": "905-906, Court tower\nBusiness Bay\nDubai",
+    "phone": "+971 50 147 4794",
+    "copyright": "©YIGO — 2025 版权所有",
+    "privacyPolicy": "隐私政策",
+    "termsOfUse": "条款与条件",
+    "madeBy": "由 STELEO 制作",
+    "home": "首页",
+    "about": "关于我们",
+    "projects": "项目",
+    "newsMedia": "新闻媒体",
+    "careers": "招聘"
+  },
+  "home": {
+    "hero": {
+      "title": "城市进化之处，",
+      "subtitle": "传奇由此开启。"
+    },
+    "scrollToBegin": "向下滚动开始",
+    "journey": {
+      "title": "YIGO之旅：",
+      "subtitle": "从香港走向世界",
+      "description1": "YIGO诞生于东西方文化交汇的香港，凝聚远见、韧性与面向未来的行动精神。",
+      "description2": "凭借全球经验与创新思维，我们因地制宜打造空间，重塑世界对未来生活方式的想象。"
+    },
+    "cities": {
+      "riyadh": "利雅得",
+      "hongKong": "香港",
+      "dubai": "迪拜",
+      "ireland": "爱尔兰"
+    },
+    "statistics": {
+      "yearsInBusiness": "经营年限",
+      "destinations": "目的地",
+      "masterpieces": "杰作",
+      "portfolio": "投资组合"
+    },
+    "dubaiProject": {
+      "title": "迪拜项目",
+      "description": "体验我们在迪拜的最新开发项目，展示创新设计和可持续生活解决方案。"
+    },
+    "featuredProjects": {
+      "title": "精选项目",
+      "description": "探索我们最具创新性和影响力的项目，展示我们对卓越和可持续发展的承诺。"
+    },
+    "craftsmanship": {
+      "title": "匠心之艺",
+      "description": "每一个细节，皆是精确与热忱的印证。\n从材料的甄选到工艺的细腻打磨，每一处都凝聚着对品质的不懈追求。\n这里的空间，不止于\"建造\"，更源于匠人精神的\"雕琢\"——\n在永恒优雅与现代功能之间取得完美平衡。最终呈现出一个精致、恒久、且充满个性温度的理想之家。"
+    }
+  },
+  "about": {
+    "title": "YIGO 的故事",
+    "aboutYigo": {
+      "title": "关于 YIGO Development",
+      "description1": "YIGO 源于一个大胆的愿景：以融合建筑雄心、文化洞察与全球视野的方式，重塑城市天际线与社区面貌。从中国起步，YIGO 踏上了不断拓展的征程——从在中国大陆开发地标性的住宅及综合体项目，到香港总部成立到布局爱尔兰、沙特阿拉伯，如今再到迪拜及更广阔的中东地区。",
+      "description2": "这一路的足迹，皆印证着我们的核心信念：建筑不仅是空间的构筑，更应滋养生活、连接人群，并推动可持续发展。",
+      "description3": "我们的故事，是一部关于\"进化\"的历程。在中国大陆，我们以兼具规模与创意的项目奠定根基；",
+      "description4": "随着信心与实力的提升，我们的目光越发全球化——从香港维港公寓起航、在爱尔兰，我们营造优雅别墅社区；在沙特阿拉伯，我们打造酒店式公寓项目；而如今，在迪拜及更广阔的中东地区，我们融入智慧规划、绿色空间与生活生态体系。",
+      "description5": "无论身处何地，YIGO 始终秉持本地洞察、国际标准与持续创新的精神。"
+    },
+    "excellence": {
+      "title": "卓越引领",
+      "description1": "自诞生到香港总部成立，YIGO集团已发展成为一家全球化企业，肩负着明确使命：通过创新、韧性与目标导向型增长，重新定义都市生活。",
+      "description2": "YIGO业务稳步从香港拓展至爱尔兰和沙特阿拉伯，在多元市场中打造标志性项目。如今，由长江国际地产开发公司主导的迪拜业务，成为我们拓展中东市场的战略枢纽。",
+      "description3": "这份国际足迹彰显着我们的愿景：打造超越地域限制的开发项目——那些激发灵感、联结人心、历久弥新的空间。",
+      "description4": "在YIGO，地产开发不仅是商业行为，更是我们传承的使命。秉持创新、责任与可持续发展的理念，我们打造的空间既呼应每座城市的独特气质，又为全球生活树立新标杆。我们坚信伟大空间源于卓越人才，而协作与卓越的企业文化确保每个项目都能为世界留下永恒印记。"
+    },
+    "vision": {
+      "title": "以愿景为驱动力。\n立足于丰富经验。",
+      "subtitle": "在迪拜，构筑理想生活的品质坐标",
+      "description1": "迪拜，这座以传奇与活力闻名的全球都市，不仅吸引来自世界各地的精英客户与投资者，也承载着无数迪拜居民对高品质生活的向往。作为 YIGO 集团（开发版块）的首席执行官，我始终思考：我们如何运用专业经验，为这一群追求卓越的人群，打造兼具居住品质与投资价值的理想家园？",
+      "description2": "他们对生活的要求从不满足于\"刚刚好\"：追求极致空间设计、精致生活细节，以及在异国亦可享受的高端生活品质；而在投资方面，他们更重视\"以品质驱动的价值增长\"——唯有经得起时间考验的优质资产，才能匹配他们对未来的长期期待。",
+      "description3": "过去二十年里，我走访了众多客户的居所，并与全球投资者进行了深入交流。我们将香港前沿的高端人居理念与迪拜本地需求深度融合，把每一份对品质的追求与每一处对细节的期待，转化为项目开发的核心方向。我们从不满足于\"建造房屋\"，而是坚持\"雕琢高品质人居\"——不仅让居住者享受超越期待的高端生活体验，也让投资者收获品质所带来的稳健增值回报。",
+      "description4": "我们不仅让居住者享受超越期待的高端生活体验，也让投资者享受由品质赋能的稳健投资回报。这正是我与 YIGO 团队在迪拜长期践行的使命，也是我们对品质的坚定承诺。",
+      "ceo": "YIGO 集团董事长"
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "email": "Info@yigogroup.com",
+    "phone": "+971 50 147 4794",
+    "address": "905-906, Court tower\nBusiness Bay\nDubai",
+    "form": {
+      "name": "姓名",
+      "company": "公司",
+      "email": "邮箱",
+      "phone": "电话",
+      "message": "请告诉我们更多关于您的咨询",
+      "send": "发送",
+      "sending": "发送中...",
+      "success": {
+        "title": "谢谢！",
+        "message": "您的消息已成功发送。我们将在 24 小时内回复您。",
+        "sendAnother": "发送另一条消息"
+      }
+    }
+  },
+  "projects": {
+    "title": "项目",
+    "categories": {
+      "residential": "住宅",
+      "hospitality": "酒店",
+      "mixedUse": "混合用途"
+    },
+    "page": {
+      "title": "我们的项目"
+    },
+    "detail": {
+      "enterExperience": "进入体验",
+      "close": "关闭",
+      "registerInterest": "登记意向",
+      "architecturalPhilosophy": "建筑理念",
+      "keyFeatures": "核心亮点",
+      "lifestyleAmenities": "生活方式与配套设施",
+      "floorPlans": "户型图",
+      "downloadBrochure": "下载手册",
+      "amenities": {
+        "clubHouse": "会所",
+        "fullyEquippedGym": "全功能健身房",
+        "rooftopGarden": "屋顶花园",
+        "reservedVipParking": "专属VIP停车位",
+        "pool": "泳池",
+        "openAirYogaTerrace": "露天瑜伽露台"
+      }
+    }
+  },
+  "news": {
+    "title": "新闻媒体",
+    "categories": {
+      "news": "新闻",
+      "press": "新闻稿",
+      "blog": "博客"
+    },
+    "featured": "精选",
+    "page": {
+      "title": "新闻&媒体",
+      "description": "探索 YIGO 的成长故事——从标志性项目的发布到全球里程碑。 随时获取来自 YIGO 集团在香港、爱尔兰、沙特阿拉伯及阿联酋发展历程中的最新资讯、洞察与媒体亮点。",
+      "featuredStories": {
+        "title": "精选故事",
+        "description": "我们最重要的新闻和公告"
+      },
+      "latestNews": {
+        "title": "最新新闻",
+        "description": "我们所有最近的新闻和更新"
+      },
+      "latestBlog": {
+        "title": "最新博客",
+        "description": "关于房地产和城市生活的见解、趋势和观点"
+      }
+    }
+  },
+  "careers": {
+    "title": "招聘",
+    "hero": {
+      "title": "寻找有意义的职业机会吗？",
+      "description": "我们正在构建创新、协作与成长的企业文化。加入我们，通过卓越的工作创造有意义的影响。与YIGO一起，今天构建明天。"
+    },
+    "benefits": {
+      "competitiveSalary": {
+        "title": "有竞争力的薪酬",
+        "description": "我们提供有竞争力的薪酬方案，反映您的技能和经验。"
+      },
+      "healthWellness": {
+        "title": "健康与福利",
+        "description": "全面的健康保险"
+      },
+      "flexibleWork": {
+        "title": "灵活工作",
+        "description": "远程工作选择和灵活工作时间，支持工作与生活平衡。"
+      },
+      "learningDevelopment": {
+        "title": "学习与发展",
+        "description": "专业发展预算和成长机会。"
+      },
+      "teamEvents": {
+        "title": "团队活动",
+        "description": "定期的团队建设活动和公司聚会。"
+      },
+      "innovationTime": {
+        "title": "创新时间",
+        "description": "专门的时间用于个人项目和探索新想法。"
+      }
+    },
+    "openPositions": {
+      "title": "开放职位",
+      "description": "探索我们当前的职位空缺，找到适合您技能和兴趣的完美角色。",
+      "positions": {
+        "sales": {
+          "title": "销售",
+          "department": "销售部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "加入我们的销售团队，建立强大的客户关系，识别新机会，通过绩效驱动的策略和结果推动增长。"
+        },
+        "marketing": {
+          "title": "市场营销",
+          "department": "市场部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "成为创意团队的一员，塑造品牌形象，推动参与度，在数字和传统渠道上提供有影响力的活动。"
+        },
+        "projectManagement": {
+          "title": "项目管理",
+          "department": "项目管理部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "监督项目从概念到完成，确保协调顺畅、及时交付并遵守最高质量标准。"
+        },
+        "engineering": {
+          "title": "工程",
+          "department": "工程部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "在将愿景转化为结构方面发挥关键作用——确保每个项目都以精确、创新和技术卓越的方式建造。"
+        },
+        "admin": {
+          "title": "行政",
+          "department": "行政部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "通过有效的协调、文档记录和跨部门沟通支持组织的日常运营。"
+        },
+        "finance": {
+          "title": "财务",
+          "department": "财务部",
+          "location": "迪拜",
+          "type": "全职",
+          "description": "管理财务规划、预算和报告，以维持稳定性、优化资源并推动可持续业务增长。"
+        }
+      },
+      "applyNow": "立即申请"
+    },
+    "cta": {
+      "title": "没有找到合适的职位？",
+      "description": "我们一直在寻找有才华的个人加入我们的团队。发送您的简历，告诉我们您希望如何做出贡献。",
+      "sendResume": "发送简历"
+    }
+  },
+  "terms": {
+    "title": "条款与条件",
+    "introduction": {
+      "title": "介绍",
+      "content": "欢迎来到长江国际房地产开发有限公司（\"公司\"、\"我们\"、\"我们的\"、\"我们\"）。这些条款与条件管理您对 www.yigogroup.ae（\"网站\"）的访问和使用。通过访问或使用网站，您同意遵守这些条款以及所有适用的阿联酋法律法规。"
+    },
+    "companyInfo": {
+      "title": "公司信息",
+      "legalName": "法定名称：长江国际房地产开发有限公司",
+      "tradeName": "贸易名称（阿拉伯语）：",
+      "licenseNumber": "许可证号：1493438",
+      "licenseIssuedBy": "贸易许可证颁发机构：迪拜政府经济发展部",
+      "trn": "税务登记号：104966402000003",
+      "address": "地址：阿联酋迪拜 Court Tower 905",
+      "jurisdiction": "管辖地：阿拉伯联合酋长国迪拜"
+    },
+    "scopeOfUse": {
+      "title": "使用范围",
+      "points": [
+        "网站旨在提供我们房地产开发项目的一般信息。",
+        "您不得将网站用于非法、欺诈、诽谤或有害目的。",
+        "您同意不尝试未经授权访问网站、其服务器或相关网络。"
+      ]
+    },
+    "intellectualProperty": {
+      "title": "知识产权",
+      "content": "网站的所有内容，包括文本、图形、图像、视频和徽标，均为长江国际房地产开发有限公司的财产，受阿联酋版权和商标法保护。未经事先书面同意，您不得复制、分发或修改任何材料。"
+    },
+    "projectInfo": {
+      "title": "项目信息和准确性",
+      "points": [
+        "本网站上显示的项目详情、视觉效果和计划仅供参考，如有变更恕不另行通知。",
+        "所有房地产项目销售将按照适用的迪拜土地部门规定进行，最终条款以签署的销售和购买协议（SPA）为准。"
+      ]
+    },
+    "noOnlinePayments": {
+      "title": "无在线支付",
+      "content": "本网站不提供或接受在线支付。所有交易均离线处理，并受单独的合同文件约束。"
+    },
+    "thirdPartyLinks": {
+      "title": "第三方链接",
+      "content": "网站可能包含第三方网站的链接。我们不对其内容、安全性或隐私做法负责。"
+    },
+    "limitationOfLiability": {
+      "title": "责任限制",
+      "content": "在阿联酋法律允许的最大范围内，我们不对因您使用或无法使用网站而产生的任何损失、损害或费用承担责任。"
+    },
+    "governingLaw": {
+      "title": "适用法律和争议解决",
+      "content": "这些条款受迪拜酋长国法律和阿联酋适用法律管辖。任何争议均应受迪拜法院专属管辖。"
+    },
+    "contact": {
+      "title": "联系方式",
+      "email": "邮箱：info@yigogroup.com"
+    },
+    "privacyPolicy": {
+      "title": "隐私政策",
+      "introduction": {
+        "title": "介绍",
+        "content": "我们致力于根据阿联酋个人数据保护法（PDPL）保护您的隐私。本隐私政策解释了我们在您使用网站时如何收集、存储、使用和共享您的数据。"
+      },
+      "dataCollection": {
+        "title": "我们收集的数据",
+        "intro": "我们可能收集：",
+        "points": [
+          "当您提交询问时的姓名、电子邮件地址和电话号码",
+          "浏览器和设备信息（通过cookies和分析工具）",
+          "用于安全和分析目的的IP地址"
+        ]
+      },
+      "dataUsage": {
+        "title": "我们如何使用您的数据",
+        "intro": "我们可能将您的个人数据用于：",
+        "points": [
+          "回应询问并提供所请求的信息",
+          "与授权经纪人分享您的联系详情以进行跟进",
+          "发送有关我们项目的营销通讯（可选择退出）",
+          "改善网站功能和用户体验"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies和跟踪",
+        "content": "我们使用cookies、Google Analytics和类似工具来增强网站。您可以在浏览器设置中禁用cookies，但这可能会影响您的浏览体验。"
+      },
+      "dataSharing": {
+        "title": "数据共享",
+        "intro": "我们可能与以下对象共享数据：",
+        "points": ["授权的房地产经纪人和营销代理", "IT服务提供商和云托管服务"],
+        "note": "我们不会将您的个人数据出售给第三方。"
+      },
+      "dataSecurity": {
+        "title": "数据存储和安全",
+        "content": "您的数据存储在安全的阿联酋服务器和经批准的云提供商中。我们采取合理措施保护数据免受丢失、滥用和未经授权的访问。"
+      },
+      "yourRights": {
+        "title": "您的权利",
+        "intro": "根据阿联酋PDPL，您可以请求：",
+        "points": [
+          "访问您的个人数据",
+          "更正或删除您的数据",
+          "撤回对营销通讯的同意"
+        ]
+      },
+      "policyChanges": {
+        "title": "政策变更",
+        "content": "我们可能会定期更新此隐私政策。修订后的政策将在此页面上发布，并附有新的\"最后更新\"日期。"
+      },
+      "contactUs": {
+        "title": "联系我们",
+        "email": "邮箱：info@yigogroup.com"
+      }
+    }
+  },
+  "slides": {
+    "amenities": {
+      "title": "设施",
+      "subtitle": "健康生活 触手可及",
+      "description": "我们的配套设施旨在将日常生活升华为度假般的体验。从休闲到健康，每一处细节都兼顾舒适与社交，让生活更愉悦、更有归属感。",
+      "features": [
+        "度假风格泳池，放松与娱乐的理想之所。",
+        "配备先进训练区的全功能健身中心。",
+        "精心景观设计的花园、儿童游乐区及社交休闲空间。"
+      ],
+      "imageTitles": [
+        "1.静谧绿洲——泳池为休闲与家庭时光而设",
+        "⁠健康生活触手可及——配备先进的健身设施",
+        "⁠精心景观化的社区空间，让邻里更加亲近。"
+      ]
+    },
+    "urbanLiving": {
+      "title": "都市生活",
+      "subtitle": "蓬勃发展的社区",
+      "description": "在这里，都市的活力与居住的魅力相融交汇。街角咖啡馆、可漫步的街区、充满生机的社交空间，让工作、休闲与社区生活自然衔接，流动成一幅理想的都市画卷。",
+      "features": [
+        "一个充满活力的核心地带，汇聚购物、美食与生活方式精品。",
+        "可步行的林荫大道与开放式聚会空间，促进邻里交流与互动。",
+        "便捷通达城市各处，同时尽享静谧与惬意的居住氛围。"
+      ],
+      "imageTitles": [
+        "⁠兼具现代便利与高效联通的都市生活方式",
+        "⁠为社交互动而打造的充满活力的社区空间。"
+      ]
+    },
+    "interiors": {
+      "title": "室内设计",
+      "subtitle": "永恒优雅，于室内绽放",
+      "description": "每一处居所皆以匠心雕琢，将现代功能与精致格调完美融合。宽敞的空间布局与充足的自然光线，共同营造出温馨、雅致且历久弥新的居住体验。",
+      "features": [
+        "开放式布局，契合现代生活方式。",
+        "优质精装，甄选高雅材质与色调。",
+        "智能厨房、静谧卧室与舒适起居空间，共塑理想居家氛围。"
+      ],
+      "imageTitles": [
+        "Rooms that reflect peace, privacy, and timeless design.",
+        "Bright, open living rooms designed for comfort and style."
+      ]
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "YIGO",
+      "description": "YIGO - 现代世界的创新解决方案"
+    },
+    "about": {
+      "title": "关于我们 - YIGO",
+      "description": "了解 YIGO 从香港到全球市场的旅程"
+    },
+    "projects": {
+      "title": "项目 - YIGO",
+      "description": "探索 YIGO 的创新住宅和商业项目"
+    },
+    "news": {
+      "title": "新闻媒体 - YIGO",
+      "description": "了解 YIGO 的最新新闻和媒体报道"
+    },
+    "careers": {
+      "title": "招聘 - YIGO",
+      "description": "加入 YIGO 团队，成为创新房地产发展的一部分"
+    },
+    "contact": {
+      "title": "联系我们 - YIGO",
+      "description": "联系 YIGO 满足您的房地产需求"
+    },
+    "terms": {
+      "title": "条款与条件 - YIGO",
+      "description": "YIGO集团的条款与条件和隐私政策"
+    }
+  }
+}

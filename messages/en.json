@@ -1,0 +1,446 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "newsMedia": "News & Media",
+    "careers": "Careers",
+    "contact": "Contact",
+    "terms": "Terms & Conditions"
+  },
+  "header": {
+    "requestCall": "Request a Call",
+    "menu": "Menu"
+  },
+  "footer": {
+    "contact": "Contact",
+    "salesOffice": "SALES OFFICE",
+    "address": "905-906, Court tower\nBusiness Bay\nDubai",
+    "phone": "+971 50 147 4794",
+    "copyright": "©YIGO — 2025 ALL RIGHTS RESERVED",
+    "privacyPolicy": "PRIVACY POLICY",
+    "termsOfUse": "TERMS & CONDITIONS",
+    "madeBy": "MADE BY STELEO",
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "newsMedia": "News & Media",
+    "careers": "Careers"
+  },
+  "home": {
+    "hero": {
+      "title": "WHERE CITIES EVOLVE,",
+      "subtitle": "LEGACIES BEGIN."
+    },
+    "scrollToBegin": "SCROLL TO BEGIN",
+    "journey": {
+      "title": "THE YIGO JOURNEY:",
+      "subtitle": "HONG KONG → GLOBAL",
+      "description1": "Born in Hong Kong at the crossroads of East and West, YIGO embodies a spirit of vision, resilience, and action for the future.",
+      "description2": "With global experience and innovative thinking, we create spaces that respond to each city's unique needs—redefining how the world lives."
+    },
+    "cities": {
+      "riyadh": "RIYADH",
+      "hongKong": "HONG KONG",
+      "dubai": "DUBAI",
+      "ireland": "IRELAND"
+    },
+    "statistics": {
+      "yearsInBusiness": "Years in Business",
+      "destinations": "Destinations",
+      "masterpieces": "Masterpieces",
+      "portfolio": "Portfolio"
+    },
+    "dubaiProject": {
+      "title": "YIGO RESIDENCES",
+      "description": "Experience our latest development in Dubai, showcasing innovative design and sustainable living solutions."
+    },
+    "featuredProjects": {
+      "title": "FEATURED PROJECTS",
+      "description": "Discover some of our most innovative and impactful projects that showcase our commitment to excellence and sustainability."
+    },
+    "craftsmanship": {
+      "title": "CRAFTSMANSHIP",
+      "description": "Every detail is a testament to precision and passion. From the choice of materials to the finesse of finishing, each element reflects an unwavering commitment to quality. Spaces are not just built — they are crafted, shaped by artisanship that balances timeless elegance with modern functionality. The result is a home that feels refined, enduring, and truly personal."
+    }
+  },
+  "about": {
+    "title": "THE YIGO STORY",
+    "aboutYigo": {
+      "title": "ABOUT YIGO DEVELOPMENT",
+      "description1": "YIGO began with a bold vision: to transform skylines and communities by blending architectural ambition, cultural insight, and global reach. From its roots in China, YIGO has charted an expansive journey — From developing landmark residential and mixed-use projects across mainland China, to establishing our headquarters in Hong Kong and expanding into Ireland and Saudi Arabia — and now further into Dubai and the broader Middle East region.",
+      "description2": "Each step in this journey reflects our core belief: built environments should be more than structures — they should nurture lives, connect people, and support sustainable growth.",
+      "description3": "Our story is one of evolution. In China, we laid our foundation with projects that balance scale and creativity.",
+      "description4": "As our confidence and capabilities grew, our vision became increasingly global — from Victoria Harbour Residences in Hong Kong, to elegant villa communities in Ireland; from serviced apartment developments in Saudi Arabia, to our latest ventures in Dubai and the wider Middle East, where we integrate smart planning, green spaces, and sustainable living ecosystems.",
+      "description5": "Wherever we are, YIGO remains committed to local insight, international standards, and continuous innovation."
+    },
+    "excellence": {
+      "title": "LEADING WITH EXCELLENCE",
+      "description1": "Since its inception and the establishment of its Hong Kong headquarters, YIGO Group has evolved into a global enterprise with a clear mission — to redefine urban living through innovation, resilience, and purpose-driven growth.",
+      "description2": "From Hong Kong, YIGO has steadily expanded its footprint to Ireland and Saudi Arabia, delivering landmark projects across diverse markets. Today, our Dubai operations, led by Cheung Kong International Real Estate Development, serve as a strategic hub for our expansion into the Middle East.",
+      "description3": "This international presence reflects our vision — to create developments that transcend geographic boundaries.",
+      "description4": "At YIGO, real estate development is more than business — it is our legacy. Guided by innovation, responsibility, and sustainability, we design spaces that respond to each city's unique character while setting new standards for global living. We believe that great places are built by great people, and our culture of collaboration and excellence ensures that every project we deliver leaves a lasting mark on the world."
+    },
+    "vision": {
+      "title": "DRIVEN BY VISION.\nGROUNDED IN EXPERIENCE.",
+      "subtitle": "Building the ideal coordinates for quality of life in Dubai",
+      "description1": "Dubai, a global metropolis known for its legend and vigour, not only attracts elite clients and investors from all over the world, but also carries the aspirations of countless Dubaiites for a high-class life. As the CEO of Yigo Group( development), I am always thinking: how can we use our expertise to create ideal homes with both living quality and investment value for this group of people who pursue excellence?",
+      "description2": "Their requirements for living are never \"just enough\": the ultimate in spatial design, the exquisite pursuit of living details, and the quality of high-end living in a foreign country; and for investment, they value \"quality-driven value-added\". For investment, they are more interested in \"quality-driven appreciation\" -- only quality assets that can stand the test of time can match their long-term expectations for the future.",
+      "description3": "Over the 20 years, I have visited many of our clients' homes and had in-depth dialogues with global investors. We have deeply integrated Hong Kong's cutting-edge high-end living concepts with Dubai's local needs, and turned every demand for quality and every expectation for detail into the core direction of project development. We are never satisfied with \"building houses\", but insist on \"sculpting quality human settlements\" - not only to allow residents to enjoy high-end living experiences beyond expectations, but also to allow investors to reap the benefits of quality and robust value-added returns.",
+      "description4": "We will not only let the residents enjoy a high-end living experience that exceeds their expectations, but also let the investors enjoy a steady return on their investment empowered by quality. This is the long-term mission that the Yigo team and I are committed to in Dubai, and it is also our commitment to quality.",
+      "ceo": "CEO YIGO GROUP"
+    }
+  },
+  "contact": {
+    "title": "GET IN\nTOUCH",
+    "email": "Info@yigogroup.com",
+    "phone": "+971 50 147 4794",
+    "address": "905-906, Court tower\nBusiness Bay\nDubai",
+    "form": {
+      "name": "NAME",
+      "company": "COMPANY",
+      "email": "EMAIL",
+      "phone": "PHONE",
+      "message": "TELL US MORE ABOUT YOUR INQUIRY",
+      "send": "SEND",
+      "sending": "SENDING...",
+      "success": {
+        "title": "THANK YOU!",
+        "message": "Your message has been sent successfully. We'll get back to you within 24 hours.",
+        "sendAnother": "Send Another Message"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "categories": {
+      "residential": "Residential",
+      "hospitality": "Hospitality",
+      "mixedUse": "Mixed-Use"
+    },
+    "page": {
+      "title": "OUR PROJECTS"
+    },
+    "detail": {
+      "enterExperience": "ENTER EXPERIENCE",
+      "close": "CLOSE",
+      "registerInterest": "Register Interest",
+      "architecturalPhilosophy": "Architectural Philosophy",
+      "keyFeatures": "KEY FEATURES",
+      "lifestyleAmenities": "LIFESTYLE & AMENITIES",
+      "floorPlans": "FLOOR PLANS",
+      "downloadBrochure": "DOWNLOAD BROCHURE",
+      "amenities": {
+        "clubHouse": "CLUB HOUSE",
+        "fullyEquippedGym": "FULLY EQUIPPED GYM",
+        "rooftopGarden": "ROOFTOP GARDEN",
+        "reservedVipParking": "RESERVED VIP PARKING",
+        "pool": "POOL",
+        "openAirYogaTerrace": "OPEN AIR YOGA TERRACE"
+      }
+    }
+  },
+  "news": {
+  "title": "NEWS & EVENTS",
+  "categories": {
+    "news": "News",
+    "press": "Press",
+    "blog": "Blog"
+  },
+  "featured": "Featured",
+  "page": {
+    "title": "NEWS & MEDIA",
+    "description": "Discover the YIGO story as it unfolds — from landmark project launches to global milestones. Stay updated with the latest news, insights, and media highlights from YIGO Group's journey across, Hong Kong, Ireland, Saudi Arabia, and the UAE.",
+    "featuredStories": {
+      "title": "FEATURED STORIES",
+      "description": "Our most important news and announcements"
+    },
+    "latestNews": {
+      "title": "LATEST NEWS",
+      "description": "All our recent news and updates"
+    },
+    "latestBlog": {
+      "title": "LATEST BLOG",
+      "description": "Insights, trends, and perspectives on real estate and urban living"
+    }
+  }
+},
+  "careers": {
+    "title": "Careers",
+    "hero": {
+      "title": "LOOKING FOR A CAREER WITH PURPOSE?",
+      "description": "We're building a culture of innovation, collaboration, and growth. Join us in creating meaningful impact through exceptional work. Build Tomorrow, Today with YIGO."
+    },
+    "benefits": {
+      "competitiveSalary": {
+        "title": "Competitive Salary",
+        "description": "We offer competitive compensation packages that reflect your skills and experience."
+      },
+      "healthWellness": {
+        "title": "Health & Wellness",
+        "description": "Comprehensive health insurance."
+      },
+      "flexibleWork": {
+        "title": "Flexible Work",
+        "description": "Remote work options and flexible hours to support work-life balance."
+      },
+      "learningDevelopment": {
+        "title": "Learning & Development",
+        "description": "Professional development budget and opportunities for growth."
+      },
+      "teamEvents": {
+        "title": "Team Events",
+        "description": "Regular team building activities and company retreats."
+      },
+      "innovationTime": {
+        "title": "Innovation Time",
+        "description": "Dedicated time to work on personal projects and explore new ideas."
+      }
+    },
+    "openPositions": {
+      "title": "OPEN POSITIONS",
+      "description": "Explore our current openings and find the perfect role for your skills and interests.",
+      "positions": {
+        "sales": {
+          "title": "Sales",
+          "department": "Sales",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Join our sales function to build strong client relationships, identify new opportunities, and drive growth through performance-driven strategies and results."
+        },
+        "marketing": {
+          "title": "Marketing",
+          "department": "Marketing",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Be part of a creative team that shapes brand perception, drives engagement, and delivers impactful campaigns across digital and traditional channels."
+        },
+        "projectManagement": {
+          "title": "Project Management",
+          "department": "Project Management",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Oversee projects from concept to completion, ensuring smooth coordination, timely delivery, and adherence to the highest quality standards."
+        },
+        "engineering": {
+          "title": "Engineering",
+          "department": "Engineering",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Play a key role in translating vision into structure — ensuring every project is built with precision, innovation, and technical excellence."
+        },
+        "admin": {
+          "title": "Admin",
+          "department": "Admin",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Support the organization's daily operations through effective coordination, documentation, and communication across departments."
+        },
+        "finance": {
+          "title": "Finance",
+          "department": "Finance",
+          "location": "Dubai",
+          "type": "Full-time",
+          "description": "Manage financial planning, budgeting, and reporting to maintain stability, optimize resources, and drive sustainable business growth."
+        }
+      },
+      "applyNow": "Apply Now"
+    },
+    "cta": {
+      "title": "DON'T SEE THE RIGHT ROLE?",
+      "description": "We're always looking for talented individuals to join our team. Send us your resume and let us know how you'd like to contribute.",
+      "sendResume": "Send Your Resume"
+    }
+  },
+  "terms": {
+    "title": "TERMS & CONDITIONS",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Welcome to Yangtze International Real Estate Development L.L.C (\"Company\", \"we\", \"our\", \"us\"). These Terms & Conditions govern your access to and use of www.yigogroup.ae (the \"Website\"). By accessing or using the Website, you agree to comply with these Terms and all applicable UAE laws and regulations."
+    },
+    "companyInfo": {
+      "title": "Company Information",
+      "legalName": "Legal Name: Yangtze International Real Estate Development L.L.C",
+      "tradeName": "Trade Name (Arabic):",
+      "licenseNumber": "License Number: 1493438",
+      "licenseIssuedBy": "Trade License Issued By: Government of Dubai, Department of Economic Development",
+      "trn": "TRN: 104966402000003",
+      "address": "Address: 905, Court Tower, Dubai, UAE",
+      "jurisdiction": "Jurisdiction: Dubai, United Arab Emirates"
+    },
+    "scopeOfUse": {
+      "title": "Scope of Use",
+      "points": [
+        "The Website is intended to provide general information about our real estate developments.",
+        "You must not use the Website for unlawful, fraudulent, defamatory, or harmful purposes.",
+        "You agree not to attempt to gain unauthorised access to the Website, its servers, or associated networks."
+      ]
+    },
+    "intellectualProperty": {
+      "title": "Intellectual Property Rights",
+      "content": "All Website content, including text, graphics, images, videos, and logos, is the property of Yangtze International Real Estate Development L.L.C and protected by UAE copyright and trademark laws. You may not reproduce, distribute, or modify any material without prior written consent."
+    },
+    "projectInfo": {
+      "title": "Project Information and Accuracy",
+      "points": [
+        "Project details, visuals, and plans displayed on this Website are for illustration purposes only and are subject to change without notice.",
+        "All real estate project sales will be conducted in accordance with applicable Dubai Land Department regulations, and final terms will be as per the signed Sale and Purchase Agreement (SPA)."
+      ]
+    },
+    "noOnlinePayments": {
+      "title": "No Online Payments",
+      "content": "This Website does not facilitate or accept online payments. All transactions are processed offline and subject to separate contractual documentation."
+    },
+    "thirdPartyLinks": {
+      "title": "Third-Party Links",
+      "content": "The Website may contain links to third-party websites. We are not responsible for their content, security, or privacy practices."
+    },
+    "limitationOfLiability": {
+      "title": "Limitation of Liability",
+      "content": "To the maximum extent permitted under UAE law, we are not liable for any loss, damage, or expense arising from your use or inability to use the Website."
+    },
+    "governingLaw": {
+      "title": "Governing Law & Dispute Resolution",
+      "content": "These Terms are governed by the laws of the Emirate of Dubai and the applicable laws of the UAE. Any dispute shall be subject to the exclusive jurisdiction of the Dubai Courts."
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "Email: info@yigogroup.com"
+    },
+    "privacyPolicy": {
+      "title": "PRIVACY POLICY",
+      "introduction": {
+        "title": "Introduction",
+        "content": "We are committed to protecting your privacy in line with the UAE Personal Data Protection Law (PDPL). This Privacy Policy explains how we collect, store, use, and share your data when you use our Website."
+      },
+      "dataCollection": {
+        "title": "Data We Collect",
+        "intro": "We may collect:",
+        "points": [
+          "Name, email address, and phone number when you submit an inquiry",
+          "Browser and device information (via cookies and analytics tools)",
+          "IP address for security and analytics purposes"
+        ]
+      },
+      "dataUsage": {
+        "title": "How We Use Your Data",
+        "intro": "We may use your personal data to:",
+        "points": [
+          "Respond to inquiries and provide requested information",
+          "Share your contact details with authorised brokers for follow-up",
+          "Send marketing communications about our projects (with opt-out option)",
+          "Improve Website functionality and user experience"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies and Tracking",
+        "content": "We use cookies, Google Analytics, and similar tools to enhance the Website. You can disable cookies in your browser settings, but this may affect your browsing experience."
+      },
+      "dataSharing": {
+        "title": "Data Sharing",
+        "intro": "We may share data with:",
+        "points": [
+          "Authorised real estate brokers and marketing agents",
+          "IT service providers and cloud hosting services"
+        ],
+        "note": "We do not sell your personal data to third parties."
+      },
+      "dataSecurity": {
+        "title": "Data Storage and Security",
+        "content": "Your data is stored in secure UAE-based servers and approved cloud providers. We take reasonable measures to protect data from loss, misuse, and unauthorised access."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "intro": "Under UAE PDPL, you can request to:",
+        "points": [
+          "Access your personal data",
+          "Correct or delete your data",
+          "Withdraw consent for marketing communications"
+        ]
+      },
+      "policyChanges": {
+        "title": "Changes to This Policy",
+        "content": "We may update this Privacy Policy periodically. The revised policy will be posted on this page with a new \"Last Updated\" date."
+      },
+      "contactUs": {
+        "title": "Contact Us",
+        "email": "Email: info@yigogroup.com"
+      }
+    }
+  },
+  "slides": {
+    "amenities": {
+      "title": "Amenities",
+      "subtitle": "Wellness at Your Doorstep",
+      "description": "Our amenities are designed to transform everyday living into a resort-like experience. From leisure to wellness, each feature enhances comfort while fostering a sense of community.",
+      "features": [
+        "Resort-style swimming pool for relaxation and recreation.",
+        "Fully equipped fitness center with modern training zones.",
+        "Landscaped gardens, kids' play areas, and social lounges."
+      ],
+      "imageTitles": [
+        "An oasis of calm — the pool designed for leisure and family moments.",
+        "Wellness at your doorstep — state-of-the-art fitness facilities.",
+        "Landscaped community spaces designed to bring neighbors together."
+      ]
+    },
+    "urbanLiving": {
+      "title": "Urban Living",
+      "subtitle": "A Neighborhood That Thrives",
+      "description": "Here, city energy meets residential charm. With boutique cafés, walkable streets, and vibrant social spaces, life flows seamlessly between work, leisure, and community.",
+      "features": [
+        "A thriving hub with shopping, dining, and lifestyle outlets.",
+        "Walkable boulevards and gathering spaces for connection.",
+        "Easy access to the city while enjoying a calm retreat."
+      ],
+      "imageTitles": [
+        "Urban lifestyle with modern conveniences and connectivity.",
+        "Vibrant community spaces designed for social interaction."
+      ]
+    },
+    "interiors": {
+      "title": "INTERIORS",
+      "subtitle": "Timeless Elegance Inside",
+      "description": "Every home is crafted with attention to detail, combining modern functionality with sophisticated finishes. Spacious layouts and natural light create interiors that feel warm, refined, and enduring.",
+      "features": [
+        "Open-plan living designed for modern lifestyles.",
+        "Premium finishes with elegant material palettes.",
+        "Smart kitchens, serene bedrooms, and inviting living spaces."
+      ],
+      "imageTitles": [
+        "Rooms that reflect peace, privacy, and timeless design.",
+        "Bright, open living rooms designed for comfort and style."
+      ]
+    }
+  },
+  "metadata": {
+    "home": {
+      "title": "YIGO",
+      "description": "YIGO - Innovative solutions for the modern world"
+    },
+    "about": {
+      "title": "About - YIGO",
+      "description": "Learn about YIGO's journey from Hong Kong to global markets"
+    },
+    "projects": {
+      "title": "Projects - YIGO",
+      "description": "Discover YIGO's innovative residential and commercial projects"
+    },
+    "news": {
+      "title": "News & Media - YIGO",
+      "description": "Stay updated with YIGO's latest news and media coverage"
+    },
+    "careers": {
+      "title": "Careers - YIGO",
+      "description": "Join YIGO's team and be part of innovative real estate development"
+    },
+    "contact": {
+      "title": "Contact - YIGO",
+      "description": "Get in touch with YIGO for your real estate needs"
+    },
+    "terms": {
+      "title": "Terms & Conditions - YIGO",
+      "description": "Terms and Conditions and Privacy Policy for YIGO Group"
+    }
+  }
+}
